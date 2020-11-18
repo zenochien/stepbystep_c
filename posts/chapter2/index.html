@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.78.1" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Joway Wang" />
+  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter2/" />
+  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter2/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Example YinYong Blog">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+      },
+      "articleSection" : "posts",
+      "name" : "Chapter 2",
+      "headline" : "Chapter 2",
+      "description" : "Phép tính Chúng mình tạo chức năng phép tính và kiểu dữ liệu\n private void pheptong()\r{\rint so1 = int.Parse(txt1.Text); \/\/hạng số 1\rint so2 = int.Parse(txt2.Text); \/\/hạng số 2\rint outcome = 0;\r\/\/Xuất hiện kết quả\routcome = so1 \u002b so2;\rbieuhien.Text = $\u0026quot;{txt1.Text} \u002b {txt2.Text}\u0026quot;;\rketqua.Text = outcome.ToString();\r}\rprivate void phantram()\r{\rint so1 = int.Parse(txt1.Text);\rint so2 = int.Parse(txt2.Text);\rint outcome = 0;\routcome = so1 % so2;\rbieuhien.",
+      "inLanguage" : "en-US",
+      "author" : "Joway Wang",
+      "creator" : "Joway Wang",
+      "publisher": "Joway Wang",
+      "accountablePerson" : "Joway Wang",
+      "copyrightHolder" : "Joway Wang",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-11-02 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-02 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter2\/",
+      "keywords" : [  ]
+  }
+</script>
+<title>Chapter 2 - Example YinYong Blog</title>
+  <meta property="og:title" content="Chapter 2 - Example YinYong Blog" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="Phép tính Chúng mình tạo chức năng phép tính và kiểu dữ liệu
+ private void pheptong(){int so1 = int.Parse(txt1.Text); //hạng số 1int so2 = int.Parse(txt2.Text); //hạng số 2int outcome = 0;//Xuất hiện kết quảoutcome = so1 &#43; so2;bieuhien.Text = $&quot;{txt1.Text} &#43; {txt2.Text}&quot;;ketqua.Text = outcome.ToString();}private void phantram(){int so1 = int.Parse(txt1.Text);int so2 = int.Parse(txt2.Text);int outcome = 0;outcome = so1 % so2;bieuhien." />
+  <meta name="description" content="Phép tính Chúng mình tạo chức năng phép tính và kiểu dữ liệu
+ private void pheptong(){int so1 = int.Parse(txt1.Text); //hạng số 1int so2 = int.Parse(txt2.Text); //hạng số 2int outcome = 0;//Xuất hiện kết quảoutcome = so1 &#43; so2;bieuhien.Text = $&quot;{txt1.Text} &#43; {txt2.Text}&quot;;ketqua.Text = outcome.ToString();}private void phantram(){int so1 = int.Parse(txt1.Text);int so2 = int.Parse(txt2.Text);int outcome = 0;outcome = so1 % so2;bieuhien." />
+  <meta property="og:locale" content="en-us" />
+
+  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+
+  
+
+  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Example YinYong Blog">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
+  
+  
+
+  
+</head>
+
+<body>
+  <article class="post English" id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="/">Joway Wang</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  <div class="lang-switch col-xs-3 col-xs-offset-9">
+    <a href="/cn/">Chinese</a>
+  </div>
+  
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">Chapter 2</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2020-11-02 00:00:00 UTC">
+                02 Nov 2020
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+              <div class="post-author">
+                <a target="_blank" href="https://joway.io/">@Joway Wang</a>
+              </div>
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h2 id="phép-tính">Phép tính</h2>
+<p>Chúng mình tạo chức năng phép tính và kiểu dữ liệu</p>
+<pre><code>        private void pheptong()
+        {
+            int so1 = int.Parse(txt1.Text); //hạng số 1
+            int so2 = int.Parse(txt2.Text); //hạng số 2
+            int outcome = 0;
+            //Xuất hiện kết quả
+            outcome = so1 + so2;
+            bieuhien.Text = $&quot;{txt1.Text} + {txt2.Text}&quot;;
+            ketqua.Text = outcome.ToString();
+        }
+
+        private void phantram()
+        {
+            int so1 = int.Parse(txt1.Text);
+            int so2 = int.Parse(txt2.Text);
+            int outcome = 0;
+
+            outcome = so1 % so2;
+            bieuhien.Text = $&quot;{txt1.Text}+{txt2.Text}&quot;;
+            ketqua.Text = outcome.ToString();
+        }
+
+        private void phepnhan()
+        {
+            int so1 = int.Parse(txt1.Text);
+            int so2 = int.Parse(txt2.Text);
+            int outcome = 0;
+
+            outcome = so1 * so2;
+            bieuhien.Text = $&quot;{txt1.Text}+{txt2.Text}&quot;;
+            ketqua.Text = outcome.ToString();
+        }
+
+        private void phepchia()
+        {
+            int so1 = int.Parse(txt1.Text);
+            int so2 = int.Parse(txt2.Text);
+            int outcome = 0;
+
+            outcome = so1 / so2;
+            bieuhien.Text = $&quot;{txt1.Text}+{txt2.Text}&quot;;
+            ketqua.Text = outcome.ToString();
+        }
+
+        private void pheptru()
+        {
+            int so1 = int.Parse(txt1.Text);
+            int so2 = int.Parse(txt2.Text);
+            int outcome = 0;
+
+            outcome = so1 - so2;
+            bieuhien.Text = $&quot;{txt1.Text} + {txt2.Text}&quot;;
+            ketqua.Text = outcome.ToString();
+        }
+
+        private void tinhClick(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if ((bool)tong.IsChecked)
+                {
+                    pheptong();
+                }
+                else if ((bool)tru.IsChecked)
+                {
+                    pheptru();
+                }
+                else if ((bool)chia.IsChecked)
+                {
+                    phepchia();
+                }
+                else if ((bool)nhan.IsChecked)
+                {
+                    phepnhan();
+                }
+                else if ((bool)phan.IsChecked)
+                {
+                    phantram();
+                }
+            }
+            catch (Exception caught)
+            {
+                bieuhien.Text = &quot;&quot;;
+                ketqua.Text = caught.Message;
+            }
+        }
+
+          private void bamnext_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(kieudulieu));
+        }
+</code></pre><h2 id="kiểu-dữ-liệu">Kiểu dữ liệu</h2>
+<pre><code>private void kieudulieu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+                ListBoxItem selectedType = (kieudulieu.SelectedItem as ListBoxItem);
+                switch (selectedType.Content.ToString())
+                {
+                    case &quot;int&quot;: 
+                        showIntValue();
+                        break;
+                    case &quot;long&quot;: 
+                        showLongValue();
+                        break;
+                    case &quot;float&quot;: 
+                        showFloatValue();
+                        break;
+                    case &quot;double&quot;:
+                        showDoubleValue();
+                        break;
+                    case &quot;decimal&quot;:
+                        showDecimalValue();
+                        break;
+                    case &quot;string&quot;:
+                        showStringValue();
+                        break;
+                    case &quot;char&quot;:
+                        showCharValue();
+                        break;
+                    case &quot;bool&quot;:
+                        showBoolValue();
+                        break;
+                }
+            }
+
+            private void showIntValue()
+            {
+                int intVar;
+                intVar = 42;
+                value.Text = intVar.ToString();
+            }
+
+            private void showLongValue()
+            {
+                long longVar;
+                longVar = 42L;
+                value.Text = longVar.ToString();
+            }
+
+            private void showFloatValue()
+            {
+                float floatVar;
+                floatVar = 0.42F;
+                value.Text = floatVar.ToString();
+            }
+
+            private void showDoubleValue()
+            {
+                double doubleVar;
+                doubleVar = 0.42;
+                value.Text = doubleVar.ToString();
+            }
+
+            private void showDecimalValue()
+            {
+                decimal decimalVar;
+                decimalVar = 0.42M;
+                value.Text = decimalVar.ToString();
+            }
+
+            private void showStringValue()
+            {
+                string stringVar;
+                stringVar = &quot;forty two&quot;;
+                value.Text = stringVar; 
+            }
+
+            private void showCharValue()
+            {
+                char charVar;
+                charVar = 'x';
+                value.Text = charVar.ToString();
+            }
+
+            private void showBoolValue()
+            {
+                bool boolVar;
+                boolVar = false;
+                value.Text = boolVar.ToString();
+            }
+        }
+</code></pre><h2 id="màn-hình-output-phép-tính">Màn hình Output Phép tính</h2>
+<pre><code>    &lt;Grid Background=&quot;{ThemeResource ApplicationPageBackgroundThemeBrush}&quot;&gt;
+        &lt;Grid Margin=&quot;12,0,12,0&quot;&gt;
+            &lt;Grid.RowDefinitions&gt;
+                &lt;RowDefinition Height=&quot;*&quot;/&gt;
+                &lt;RowDefinition Height=&quot;2*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;3*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;8*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;2*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;2*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;2*&quot; /&gt;
+                &lt;RowDefinition Height=&quot;*&quot; /&gt;
+            &lt;/Grid.RowDefinitions&gt;
+            &lt;Grid.ColumnDefinitions&gt;
+                &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;
+                &lt;ColumnDefinition Width=&quot;3*&quot; /&gt;
+                &lt;ColumnDefinition Width=&quot;2*&quot; /&gt;
+            &lt;/Grid.ColumnDefinitions&gt;
+            &lt;TextBlock x:Name=&quot;lhs&quot; Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Center&quot;  VerticalAlignment=&quot;Center&quot; FontSize=&quot;24&quot;&gt;&lt;Run Text=&quot;Hạng số 1&quot;/&gt;&lt;Run Text=&quot; &quot;/&gt;&lt;/TextBlock&gt;
+            &lt;TextBlock x:Name=&quot;rhs&quot; Grid.Row=&quot;1&quot; Grid.Column=&quot;2&quot; HorizontalAlignment=&quot;Center&quot;  VerticalAlignment=&quot;Center&quot; Text=&quot;Hạng số 2&quot; FontSize=&quot;24&quot;/&gt;
+            &lt;TextBox x:Name=&quot;txt1&quot; Grid.Row=&quot;2&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; Width=&quot;200&quot; FontSize=&quot;24&quot; /&gt;
+            &lt;TextBox x:Name=&quot;txt2&quot; Grid.Row=&quot;2&quot; Grid.Column=&quot;2&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; Width=&quot;200&quot; FontSize=&quot;24&quot; /&gt;
+            &lt;StackPanel x:Name=&quot;pheptinh&quot; Grid.Row=&quot;3&quot; Grid.Column=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; Width=&quot;251&quot;&gt;
+                &lt;RadioButton x:Name=&quot;tong&quot; VerticalAlignment=&quot;Top&quot; Content=&quot;Tổng '+'&quot; FontSize=&quot;24&quot; IsChecked=&quot;True&quot; /&gt;
+                &lt;RadioButton x:Name=&quot;tru&quot; VerticalAlignment=&quot;Top&quot; Content=&quot;Trừ '-'&quot; FontSize=&quot;24&quot; /&gt;
+                &lt;RadioButton x:Name=&quot;nhan&quot; VerticalAlignment=&quot;Top&quot; Content=&quot;Nhân '*'&quot; FontSize=&quot;24&quot; /&gt;
+                &lt;RadioButton x:Name=&quot;chia&quot; VerticalAlignment=&quot;Top&quot; Content=&quot;Chia '/'&quot; FontSize=&quot;24&quot; /&gt;
+                &lt;RadioButton x:Name=&quot;phan&quot; VerticalAlignment=&quot;Top&quot; Content=&quot;Phần trăm '%'&quot; FontSize=&quot;24&quot; /&gt;
+            &lt;/StackPanel&gt;
+            &lt;Button x:Name=&quot;tinh&quot; Grid.Row=&quot;5&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; Content=&quot;Tính phép&quot; FontSize=&quot;24&quot; Click=&quot;calculateClick&quot; /&gt;
+            &lt;TextBlock Grid.Row=&quot;7&quot; Grid.Column=&quot;0&quot; VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot; Text=&quot;Biểu hiện&quot; FontSize=&quot;24&quot; SelectionChanged=&quot;TextBlock_SelectionChanged&quot; /&gt;
+            &lt;TextBlock x:Name=&quot;bieuhien&quot; Grid.Row=&quot;7&quot; Grid.Column=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; VerticalAlignment=&quot;Center&quot; FontSize=&quot;24&quot; /&gt;
+            &lt;TextBlock Grid.Row=&quot;9&quot; Grid.Column=&quot;0&quot; VerticalAlignment=&quot;Center&quot; HorizontalAlignment=&quot;Center&quot; Text=&quot;Kết quả&quot; FontSize=&quot;24&quot; /&gt;
+            &lt;TextBlock x:Name=&quot;ketqua&quot; Grid.Row=&quot;9&quot; Grid.Column=&quot;1&quot; Grid.ColumnSpan=&quot;2&quot; VerticalAlignment=&quot;Center&quot; FontSize=&quot;24&quot; /&gt;
+            &lt;Button Name=&quot;bamnext&quot; Content=&quot;Kiểu dữ liệu&quot; Click=&quot;bamnext_Click&quot; Grid.Column=&quot;2&quot; Margin=&quot;0,10,0,0&quot; Grid.Row=&quot;5&quot; VerticalAlignment=&quot;Top&quot; HorizontalAlignment=&quot;Center&quot; Width=&quot;245&quot;/&gt;
+
+        &lt;/Grid&gt;
+    &lt;/Grid&gt;
+</code></pre><p><img src="../../img/3.jpg" alt="images"></p>
+<h2 id="màn-hình-output-kiểu-dữ-liệu">Màn hình Output Kiểu dữ liệu</h2>
+<pre><code>    &lt;Grid&gt;
+        &lt;Grid Margin=&quot;12,0,12,0&quot;&gt;
+            &lt;Grid.RowDefinitions&gt;
+                &lt;!--theo cột--&gt;
+                &lt;RowDefinition Height=&quot;2*&quot;/&gt;
+                &lt;RowDefinition Height=&quot;*&quot;/&gt;
+                &lt;RowDefinition Height=&quot;10*&quot;/&gt;
+            &lt;/Grid.RowDefinitions&gt;
+            &lt;TextBlock Grid.Row=&quot;0&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot;  FontSize=&quot;40&quot;  TextWrapping=&quot;Wrap&quot; Text=&quot;Kiểu dữ liệu&quot; /&gt;
+            &lt;Grid Margin=&quot;12,0,12,0&quot; Grid.Row=&quot;2&quot;&gt;
+                &lt;Grid.RowDefinitions&gt;
+                &lt;!--theo cột--&gt;
+                    &lt;RowDefinition Height=&quot;110*&quot;/&gt;
+                    &lt;RowDefinition Height=&quot;55*&quot; /&gt;
+                    &lt;RowDefinition Height=&quot;469*&quot; /&gt;
+                    &lt;RowDefinition Height=&quot;135*&quot; /&gt;
+                &lt;/Grid.RowDefinitions&gt;
+                &lt;Grid.ColumnDefinitions&gt;
+                    &lt;ColumnDefinition Width=&quot;*&quot;/&gt;
+                    &lt;ColumnDefinition Width=&quot;*&quot; /&gt;
+                &lt;/Grid.ColumnDefinitions&gt;
+                &lt;TextBlock Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextWrapping=&quot;Wrap&quot; FontSize=&quot;28&quot; Text=&quot;Chọn nào thử xem&quot; /&gt;
+                &lt;TextBlock Grid.Row=&quot;0&quot; Grid.Column=&quot;1&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Center&quot; TextWrapping=&quot;Wrap&quot; FontSize=&quot;28&quot; Text=&quot;Giá trị value&quot; /&gt;
+                &lt;ListBox x:Name=&quot;kieudulieu&quot; Grid.Row=&quot;2&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Top&quot; Width=&quot;150&quot; FontSize=&quot;24&quot; SelectionChanged=&quot;kieudulieu_SelectionChanged&quot; Height=&quot;424&quot;&gt;
+                    &lt;ListBoxItem&gt;int&lt;/ListBoxItem&gt;
+                    &lt;ListBoxItem&gt;long&lt;/ListBoxItem&gt;
+                    &lt;ListBoxItem&gt;float&lt;/ListBoxItem&gt;
+                    &lt;ListBoxItem&gt;double&lt;/ListBoxItem&gt;
+                    &lt;ListBoxItem&gt;decimal&lt;/ListBoxItem&gt;
+                    &lt;ListBoxItem&gt;string&lt;/ListBoxItem&gt;
+                    &lt;ListBoxItem&gt;char&lt;/ListBoxItem&gt;
+                    &lt;ListBoxItem&gt;bool&lt;/ListBoxItem&gt;
+                &lt;/ListBox&gt;
+                &lt;TextBox x:Name=&quot;value&quot; Grid.Row=&quot;2&quot; Grid.Column=&quot;1&quot; VerticalAlignment=&quot;Top&quot; HorizontalAlignment=&quot;Center&quot; TextWrapping=&quot;Wrap&quot; FontSize=&quot;24&quot; Width=&quot;150&quot; Height=&quot;45&quot;/&gt;
+            &lt;/Grid&gt;
+        &lt;/Grid&gt;
+    &lt;/Grid&gt;
+</code></pre><p><img src="../../img/4.jpg" alt="image"></p>
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+
+          
+          
+          <div style="height: 50px;"></div>
+          
+          <div class="post-comments">
+            <div id="disqus_thread"></div>
+<script>
+  window.addEventListener("load", () => {
+    (function() {
+      
+      var d = document,
+        s = d.createElement("script");
+      s.src = "https://joway.disqus.com/embed.js";
+      s.setAttribute("data-timestamp", +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  });
+</script>
+<noscript
+  >Please enable JavaScript to view the
+  <a href="https://disqus.com/?ref_noscript"
+    >comments powered by Disqus.</a
+  ></noscript
+>
+
+          </div>
+          
+        
+
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="/index.xml" target="_blank">RSS</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://joway.io" target="_blank">About</a>
+  </div>
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example YinYong Blog</title>
+    <link>https://zenochien.github.io/stepbystep_c/</link>
+    <description>Recent content on Example YinYong Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/stepbystep_c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 10</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter10/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter10/</guid>
+      <description>Creating jagged arrays Card </description>
+    </item>
+    
+    <item>
+      <title>Chapter 11</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter11/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter11/</guid>
+      <description>Understanding parameter arrays </description>
+    </item>
+    
+    <item>
+      <title>Chapter 12</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter12/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter12/</guid>
+      <description>Working with inheritance Understanding protected access Creating extension methods </description>
+    </item>
+    
+    <item>
+      <title>Chapter 13</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter13/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter13/</guid>
+      <description>Creating interfaces and defining abstract classes Drawing Pad </description>
+    </item>
+    
+    <item>
+      <title>Chapter 14</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter14/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter14/</guid>
+      <description>Using garbage collection and resource management Implementing exception-safe disposal </description>
+    </item>
+    
+    <item>
+      <title>Chapter 15</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter15/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter15/</guid>
+      <description>Implementing properties to access fields Replacing methods with properties </description>
+    </item>
+    
+    <item>
+      <title>Chapter 16</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter16/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter16/</guid>
+      <description>Handling binary data and using indexers Using indexers in a Windows application </description>
+    </item>
+    
+    <item>
+      <title>Chapter 17</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter17/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter17/</guid>
+      <description>Introducing generics The theory of binary trees </description>
+    </item>
+    
+    <item>
+      <title>Chapter 17</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter18/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter18/</guid>
+      <description>Using collections Using collection classes to play cards </description>
+    </item>
+    
+    <item>
+      <title>Chapter 19</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter19/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter19/</guid>
+      <description>Enumerating collections Implementing the IEnumerable interface </description>
+    </item>
+    
+    <item>
+      <title>Chapter 21</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter21/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter21/</guid>
+      <description>Querying in-memory data by using query expressions </description>
+    </item>
+    
+    <item>
+      <title>Chapter 22</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter22/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter22/</guid>
+      <description>Operator overloading </description>
+    </item>
+    
+    <item>
+      <title>Chapter 23</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter23/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter23/</guid>
+      <description>Improving throughput by using tasks Graph Demo Parallel GraphDemo </description>
+    </item>
+    
+    <item>
+      <title>Chapter 24</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter24/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter24/</guid>
+      <description>Improving response time by performing asynchronous operations Grapht demo PLINQ </description>
+    </item>
+    
+    <item>
+      <title>Chapter 25</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter25/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter25/</guid>
+      <description>Implementing the user interface for a Universal Windows Platform app Implementing the Model–View–ViewModel pattern </description>
+    </item>
+    
+    <item>
+      <title>Chapter 26</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter26/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter26/</guid>
+      <description>Displaying and searching for data in a Universal Windows Platform app Implementing the Model–View–ViewModel pattern </description>
+    </item>
+    
+    <item>
+      <title>Chapter 27</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter27/</link>
+      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter27/</guid>
+      <description>Accessing a remote database from a Universal Windows Platform app Retrieving data from a database </description>
+    </item>
+    
+    <item>
+      <title>Chapter 6</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter6/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter6/</guid>
+      <description>Đã học bài 2 giống bài 6 nhé. Cách khác để mình nhập String hay ko? try{if ((bool)tong.IsChecked){tongValues();}else if ((bool)tru.IsChecked){truValues();}else if ((bool)nhan.IsChecked){nhanValues();}else if ((bool)chia.IsChecked){chiaValues();}else if ((bool)phan.IsChecked){phamtramValues();}else{throw new InvalidOperationException(&amp;quot;Không có toán tử nào được chọn&amp;quot;);}}catch (FormatException fEx){ketqua.Text = fEx.Message;}catch (OverflowException oEx){ketqua.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 7</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter7/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter7/</guid>
+      <description>Creating and managing classes and objects Tạo Class và Object Tạo Class &amp;lsquo;Ponit&amp;rsquo;
+Tạo MainPage.cs
+Màn hình </description>
+    </item>
+    
+    <item>
+      <title>Chapter 8</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter8/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter8/</guid>
+      <description>How Computer memory is organized The System.Object class Boxing Unboxing Chạy chương trình và kết quả </description>
+    </item>
+    
+    <item>
+      <title>Chapter 9</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter9/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter9/</guid>
+      <description>Structs And Enums </description>
+    </item>
+    
+    <item>
+      <title>Chapter 5</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter5/</link>
+      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter5/</guid>
+      <description>Câu lệnh While Trước khi mình cần thêm 2 using Màn hình Output Biểu diễn bát phân Màn hình Output </description>
+    </item>
+    
+    <item>
+      <title>Chapter 4</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter4/</link>
+      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter4/</guid>
+      <description>Hôm nay luyện tập bài 4 Mình tự học thực hành C# UWP
+Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Paste Màn hình Output </description>
+    </item>
+    
+    <item>
+      <title>Chapter 3</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter3/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter3/</guid>
+      <description>Giống bài 2 trước, cách khác mình thử xem Trước khi kết quả, mình cần try{&amp;hellip;} catch {&amp;hellip;}
+khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)int calculatedValue = 0;try{int txt1 = System.Int32.Parse(txt1.Text); //x:Name=&amp;quot;txt1&amp;quot;int txt2 = System.Int32.Parse(txt2.Text); //x:Name=&amp;quot;txt1&amp;quot;if (pheptoan.IsChecked.HasValue &amp;amp;&amp;amp; pheptoan.IsChecked.Value){calculatedValue = addValues(leftHandSide, rightHandSide);showResult(calculatedValue);}else if ... giống như pheptoancatch (Exception caught){expression.Text = &amp;quot;&amp;quot;;result.Text = caught.Message;}private void pheptong(){int so1 = int.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 2</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter2/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter2/</guid>
+      <description>Phép tính Chúng mình tạo chức năng phép tính và kiểu dữ liệu
+ private void pheptong(){int so1 = int.Parse(txt1.Text); //hạng số 1int so2 = int.Parse(txt2.Text); //hạng số 2int outcome = 0;//Xuất hiện kết quảoutcome = so1 + so2;bieuhien.Text = $&amp;quot;{txt1.Text} + {txt2.Text}&amp;quot;;ketqua.Text = outcome.ToString();}private void phantram(){int so1 = int.Parse(txt1.Text);int so2 = int.Parse(txt2.Text);int outcome = 0;outcome = so1 % so2;bieuhien.</description>
+    </item>
+    
+    <item>
+      <title>Chapter 1</title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter1/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter1/</guid>
+      <description>VS2017 C# Step by Step Code samples
+download
+Book VS2017 C# Step by Step
+download
+Khởi đầu Visual Studio 2019 is a tool-rich programming environment containing the functionality that you need to create large or small C# projects running on Windows. Bài thực hành ví dụ  public sealed partial class MainPage : Page{public MainPage(){this.InitializeComponent();}private void okClick(object sender, RoutedEventArgs e){MessageDialog msg = new MessageDialog(&amp;quot; &amp;quot; + txt1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://zenochien.github.io/stepbystep_c/posts/chapter20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

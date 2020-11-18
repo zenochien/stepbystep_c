@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Example YinYong Blog</title>
+    <title>Posts on Bài thực hành C# Step by Step</title>
     <link>https://zenochien.github.io/stepbystep_c/posts/</link>
-    <description>Recent content in Posts on Example YinYong Blog</description>
+    <description>Recent content in Posts on Bài thực hành C# Step by Step</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/stepbystep_c/posts/index.xml" rel="self" type="application/rss+xml" />

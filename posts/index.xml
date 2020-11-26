@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bài thực hành C và .Net Core</title>
-    <link>https://zenochien.github.io/c#andnetcore/posts/</link>
+    <link>https://zenochien.github.io/c-andnetcore/posts/</link>
     <description>Recent content in Posts on Bài thực hành C và .Net Core</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/c#andnetcore/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/c-andnetcore/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chapter 10: Reactive Programming Patterns and Techniques</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter10/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter10/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter10/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter10/</guid>
       <description>Reactive Programming Patterns and Techniques  What is a stream?  A sequence of events is called a stream. A stream can emit three things: a value, an error, and a signal for completion.
 What are reactive properties?  -Reactive properties are binding properties that react when an event triggers.
 What is a reactive system?  On the basis of the Reactive Manifesto, we can conclude that reactive systems are as follows:</description>
@@ -20,96 +20,96 @@ What is a reactive system?  On the basis of the Reactive Manifesto, we can concl
     
     <item>
       <title>Chapter 9: Reactive Programming Patterns and Techniques</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter9/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter9/</link>
       <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter9/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter9/</guid>
       <description>Reactive Programming Patterns and Techniques In the previous chapter (Chapter 9, Functional Programming Practices), we delved into functional programming and learned about Func, Predicate, LINQ, Lambda, anonymous functions, expression trees, and recursion. We also looked at the implementation of the strategy pattern using functional programming. This chapter will explore the use of reactive programming and provides a hands-on demonstration of reactive programming using the C# language. We will delve into the principles and models of reactive programming and discuss the IObservable and IObserver providers.</description>
     </item>
     
     <item>
       <title>Chapter 8: Concurrent Programming in .NET Core</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter8/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter8/</link>
       <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter8/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter8/</guid>
       <description>Concurrent Programming in .NET Core In the previous chapter (Chapter 7, Implementing Design Patterns for Web Applications - Part 2), we created a sample web application with the help of various patterns for the web. We adapted authorization and authentication mechanisms to secure a web application and discussed Test-driven development (TDD) to make sure that our code has been tested and is working.
 This chapter will discuss the best practices to adopt while performing concurrent programming in .</description>
     </item>
     
     <item>
       <title>Chapter 7: Implementing Design Patterns for Web Applications - Part 2</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter7/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter7/</link>
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter7/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter7/</guid>
       <description>Implementing Design Patterns for Web Applications We also covered User Interface (UI) architectural patterns such as Model-View-Controller (MVC), Model View Presenter (MVP) and others. The previous chapter aimed to discuss patterns such as MVC. We now need to extend our existing application to incorporate more patterns.
 In this chapter, we will continue with our existing FlixOne web application and extend the application by working on code to see the implementation of authentication and authorization.</description>
     </item>
     
     <item>
       <title>Chapter 6: Implementing Design Patterns for Web Applications - Part 1</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter6/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter6/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter6/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter6/</guid>
       <description>Implementing Design Patterns for Web Applications The following topics will be covered in this chapter:
  Creating a .NET Core web application Crafting a web application Implementing CRUD pages  Creating a .Net Core web application At the beginning of this chapter, we discussed our FlixOne console-based application, and there are various reasons to go with a web application as identified by the business team. Now it&amp;rsquo;s time to make changes in the application.</description>
     </item>
     
     <item>
       <title>Chapter 4: Implementing Design Patterns - Basics Part 2</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter4/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter4/</link>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter4/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter4/</guid>
       <description>Implementing Design Patterns - Abstract and Observer Patterns  The singleton pattern The factory pattern Features of .NET Core Console application  The singleton pattern The singleton pattern is another GoF design pattern that is used to restrict the instantiation of a class to one object. It is used in situations where actions within a system need to be coordinated or access to data needs to be limited. For example, if access to a file needs to be restricted within an application to a single writer, then a singleton could be used to prevent multiple objects from trying to write to the file at the same time.</description>
     </item>
     
     <item>
       <title>Chapter 5: Implementing Design Patterns - .NET Core</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter5/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter5/</link>
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter5/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter5/</guid>
       <description>Implementing Design Patterns - .NET Core The previous chapter continued the building of the FlixOne inventory management application by incorporating additional patterns. More of the Gang of Four patterns were used, including the Singleton and Factory patterns. The Singleton pattern was used to illustrate the Repository pattern that was used to maintain the FlixOne collection of books. The Factory pattern was used to further explore the dependency injection (DI). The .</description>
     </item>
     
     <item>
       <title>Chapter 1 - Overview of OOPs and design patterns in .NET Core and C#</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter1/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter1/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter1/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter1/</guid>
       <description>Overview of OOPs and design patterns in .NET Core and C#  Discussing OOP and the working of classes and objects Pattern &amp;amp; Practices for solution development, cloud development and services development Overview of Pattern-catalogs such as GoF patterns, EIP catalog, POSA catalog and others Language specific patterns in C# and .NET Core like singleton pattern, delegates and delegation pattern (Observer pattern) and C# constructors and constructor injections Do we really need design patterns?</description>
     </item>
     
     <item>
       <title>Chapter 3: Inventory Application Overview - Basics Part 1</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter3/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter3/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter3/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter3/</guid>
       <description>Inventory Application Overview  Project Kickoff and Requirements Gathering Test Driven Development Abstract Factory Design Pattern  Implementing Design Patterns This chapter will cover the kickoff of a new project and the creation of the first release of the application. The following patterns are illustrated in this chapter:
  Minimal Viable Product (MVP) Test-driven development (TDD) Abstract Factory pattern (Gang of Four) SOLID principles  MInimal Viable Product (MVP) Many approaches, which can be viewed as patterns, exist for the determining the features of a software application.</description>
     </item>
     
     <item>
       <title>Introduce book Hands-On Design Patterns with Csharp and .NET Core</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/introduce/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/introduce/</link>
       <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/introduce/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/introduce/</guid>
       <description>Hands-On Design Patterns with Csharp and .NET Core This in-depth immersion into the Object-oriented programming (OOP) and .NET Core worlds is profitable to anyone interested in writing best-in-class applications.
 What this book covers Chapter 1, Overview of OOP in .NET Core and C#, contains an overview of Object-orientedprogramming (OOP) and how it applies to C#. This chapter serves as a refresher of the important constructs and features of OOP and C#, including inheritance, encapsulation, and polymorphism.</description>
     </item>
     
     <item>
       <title>Chapter 2 - Modern Software Design Patterns and Principles</title>
-      <link>https://zenochien.github.io/c#andnetcore/posts/chapter2/</link>
+      <link>https://zenochien.github.io/c-andnetcore/posts/chapter2/</link>
       <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter2/</guid>
+      <guid>https://zenochien.github.io/c-andnetcore/posts/chapter2/</guid>
       <description>Modern Software Design Patterns and Principles  Design Principles Software Patterns Software Development Lifecycle Patterns Additional Software Patterns  Design principles (Nguyên tắc thiết kế) Arguably, the most important aspect of good software development is software design. Developing software solutions that are both functionally accurate and easy to maintain is challenging and relies considerably on using good development principles. Over time, some decisions that were made early in the project can cause solutions to become too costly to maintain and extend, forcing systems to be rewritten, while others with a good design can be extended and adapted as business requirements and technology change.</description>
     </item>
     

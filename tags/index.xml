@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bài thực hành C và .Net Core</title>
-    <link>https://zenochien.github.io/c#andnetcore/tags/</link>
+    <link>https://zenochien.github.io/c-andnetcore/tags/</link>
     <description>Recent content in Tags on Bài thực hành C và .Net Core</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://zenochien.github.io/c#andnetcore/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://zenochien.github.io/c-andnetcore/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

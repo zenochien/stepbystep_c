@@ -6,9 +6,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="C# Step by Step" />
-  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter7/" />
-  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter7/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Bài thực hành C# Step by Step">
+  <meta name="author" content="C and .Net Core" />
+  <meta property="og:url" content="https://zenochien.github.io/c#andnetcore/posts/chapter7/" />
+  <link rel="canonical" href="https://zenochien.github.io/c#andnetcore/posts/chapter7/" /><link rel="preload" href="/c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/c#andnetcore/index.xml" title="Bài thực hành C và .Net Core">
 
   <script type="application/ld+json">
   {
@@ -16,45 +16,43 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+           "@id": "https:\/\/zenochien.github.io\/c#andnetcore\/"
       },
       "articleSection" : "posts",
-      "name" : "Chapter 7",
-      "headline" : "Chapter 7",
-      "description" : "Creating and managing classes and objects Tạo Class và Object Tạo Class \u0026lsquo;Ponit\u0026rsquo;\nTạo MainPage.cs\nMàn hình ",
+      "name" : "Chapter 7: Implementing Design Patterns for Web Applications - Part 2",
+      "headline" : "Chapter 7: Implementing Design Patterns for Web Applications - Part 2",
+      "description" : "Implementing Design Patterns for Web Applications We also covered User Interface (UI) architectural patterns such as Model-View-Controller (MVC), Model View Presenter (MVP) and others. The previous chapter aimed to discuss patterns such as MVC. We now need to extend our existing application to incorporate more patterns.\nIn this chapter, we will continue with our existing FlixOne web application and extend the application by working on code to see the implementation of authentication and authorization.",
       "inLanguage" : "en-US",
-      "author" : "C# Step by Step",
-      "creator" : "C# Step by Step",
-      "publisher": "C# Step by Step",
-      "accountablePerson" : "C# Step by Step",
-      "copyrightHolder" : "C# Step by Step",
+      "author" : "C and .Net Core",
+      "creator" : "C and .Net Core",
+      "publisher": "C and .Net Core",
+      "accountablePerson" : "C and .Net Core",
+      "copyrightHolder" : "C and .Net Core",
       "copyrightYear" : "2020",
-      "datePublished": "2020-11-06 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-11-06 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter7\/",
+      "datePublished": "2020-11-23 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-23 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/c#andnetcore\/posts\/chapter7\/",
       "keywords" : [  ]
   }
 </script>
-<title>Chapter 7 - Bài thực hành C# Step by Step</title>
-  <meta property="og:title" content="Chapter 7 - Bài thực hành C# Step by Step" />
+<title>Chapter 7: Implementing Design Patterns for Web Applications - Part 2 - Bài thực hành C và .Net Core</title>
+  <meta property="og:title" content="Chapter 7: Implementing Design Patterns for Web Applications - Part 2 - Bài thực hành C và .Net Core" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Creating and managing classes and objects Tạo Class và Object Tạo Class &lsquo;Ponit&rsquo;
-Tạo MainPage.cs
-Màn hình " />
-  <meta name="description" content="Creating and managing classes and objects Tạo Class và Object Tạo Class &lsquo;Ponit&rsquo;
-Tạo MainPage.cs
-Màn hình " />
+  <meta property="og:description" content="Implementing Design Patterns for Web Applications We also covered User Interface (UI) architectural patterns such as Model-View-Controller (MVC), Model View Presenter (MVP) and others. The previous chapter aimed to discuss patterns such as MVC. We now need to extend our existing application to incorporate more patterns.
+In this chapter, we will continue with our existing FlixOne web application and extend the application by working on code to see the implementation of authentication and authorization." />
+  <meta name="description" content="Implementing Design Patterns for Web Applications We also covered User Interface (UI) architectural patterns such as Model-View-Controller (MVC), Model View Presenter (MVP) and others. The previous chapter aimed to discuss patterns such as MVC. We now need to extend our existing application to incorporate more patterns.
+In this chapter, we will continue with our existing FlixOne web application and extend the application by working on code to see the implementation of authentication and authorization." />
   <meta property="og:locale" content="en-us" />
 
-  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+  <link rel="stylesheet" href="/c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/c/css/index.css">
 
   
 
-  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
-    title="Bài thực hành C# Step by Step">
+  <link href="/c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Bài thực hành C và .Net Core">
   
   <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
   
@@ -71,7 +69,7 @@ Màn hình " />
           
 <header>
   <div class="signatures site-title">
-    <a href="/">C# Step by Step</a>
+    <a href="/">C and .Net Core</a>
   </div>
 </header>
 <div class="row end-xs">
@@ -82,20 +80,20 @@ Màn hình " />
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Chapter 7</h1>
+          <h1 class="post-title">Chapter 7: Implementing Design Patterns for Web Applications - Part 2</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2020-11-06 00:00:00 UTC">
-                06 Nov 2020
+              <time class="post-date" datetime="2020-11-23 00:00:00 UTC">
+                23 Nov 2020
               </time>
               
             </div>
             <div class="col-xs-6">
               
               <div class="post-author">
-                <a target="_blank" href="https://joway.io/">@C# Step by Step</a>
+                <a target="_blank" href="https://joway.io/">@C and .Net Core</a>
               </div>
               
             </div>
@@ -105,16 +103,55 @@ Màn hình " />
 
         <div class="post-content markdown-body">
           
-          <h2 id="creating-and-managing-classes-and-objects">Creating and managing classes and objects</h2>
-<p><img src="../../img/23.jpg" alt="image"></p>
-<p><img src="../../img/22.jpg" alt="image"></p>
-<h2 id="tạo-class-và--object">Tạo Class và  Object</h2>
-<p>Tạo Class &lsquo;Ponit&rsquo;</p>
-<p><img src="../../img/25.jpg" alt="image"></p>
-<p>Tạo MainPage.cs</p>
-<p><img src="../../img/24.jpg" alt="image"></p>
-<h2 id="màn-hình">Màn hình</h2>
-<p><img src="../../img/26.jpg" alt="image"></p>
+          <h2 id="implementing-design-patterns-for-web-applications">Implementing Design Patterns for Web Applications</h2>
+<p>We also covered <strong>User Interface (UI)</strong> architectural patterns such as <strong>Model-View-Controller (MVC)</strong>, <strong>Model View Presenter (MVP)</strong> and others. The previous chapter aimed to discuss patterns such as MVC. We now need to extend our existing application to incorporate more patterns.</p>
+<p>In this chapter, we will continue with our existing FlixOne web application and extend the application by working on code to see the implementation of authentication and authorization. In addition to this, we will discuss <strong>Test-Driven Development (TDD)</strong>.</p>
+<p>In this chapter, we will cover the following topics:</p>
+<ul>
+<li>Authentication and authorization</li>
+<li>Creating a .NET Core web test project</li>
+</ul>
+<h2 id="project-kickoff">Project kickoff</h2>
+<p>Implementing Design Patterns for Web Applications – Part 1, we extended our FlixOne inventory console application and developed a web application. We extended the application after considering the following points:</p>
+<ul>
+<li>Our business needs a rich UI.</li>
+<li>New opportunities demand a responsive web application.</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>After several meetings and discussions with the management, <strong>Business Analysts (BAs)</strong>, and presales
+folks, management decided to work on the following high-level requirements: <strong>business requirements</strong>
+and <strong>technical requirements</strong>.
+The business team eventually came up with the following business requirements:</p>
+<ul>
+<li><strong>Product categorization</strong>: There are several products, but if a user wants to search for a specific
+product, they can do so by filtering all products by their categories. For example, products such
+as mangoes, bananas, and more should come under a category called Fruits.</li>
+<li><strong>Product addition</strong>: There should be an interface that provides us with a feature to add new
+products. This feature should only be available to users who have the Add Products privilege.</li>
+<li><strong>Product updation</strong>: There should be a new interface where product updates should be possible.</li>
+<li><strong>Product deletion</strong>: There is a requirement for administrators to delete products.</li>
+</ul>
+<h2 id="authentication-and-authorization">Authentication and authorization</h2>
+<p><strong>C</strong>reate, <strong>R</strong>ead, <strong>U</strong>pdate and <strong>D</strong>elete = CRUD operation, which are available publicly to any user who is able to perform them.
+There is nothing coded to restrict a particular user from
+performing these operations. The risk with this is that users who are not supposed to perform these
+operations can easily do so. The consequences of this are as follows:</p>
+<ul>
+<li>Unattended access</li>
+<li>An open door for hackers/attackers</li>
+<li>Data leakage issues</li>
+</ul>
+<h2 id="home-login">Home Login</h2>
+<p><img src="../../img/64.jpg" alt="image">
+<img src="../../img/65.jpg" alt="image"></p>
+<h2 id="product-test">Product Test</h2>
+<p><strong>Folder &ldquo;Fake&rdquo;</strong> 
+<img src="../../img/66.jpg" alt="image">
+<img src="../../img/67.jpg" alt="image">
+<strong>Folder &ldquo;Service&rdquo;</strong>
+<img src="../../img/68.jpg" alt="image">
+<strong>Product Test</strong>
+<img src="../../img/69.jpg" alt="image"></p>
 
         </div>
 
@@ -179,7 +216,7 @@ Màn hình " />
     </div>
   </article>
 
-  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+  <script src="/c/js/highlight.pack.js"></script>
 
 
 <script>

@@ -6,9 +6,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="C# Step by Step" />
-  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter9/" />
-  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter9/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Bài thực hành C# Step by Step">
+  <meta name="author" content="C and .Net Core" />
+  <meta property="og:url" content="https://zenochien.github.io/c#andnetcore/posts/chapter9/" />
+  <link rel="canonical" href="https://zenochien.github.io/c#andnetcore/posts/chapter9/" /><link rel="preload" href="/c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/c#andnetcore/index.xml" title="Bài thực hành C và .Net Core">
 
   <script type="application/ld+json">
   {
@@ -16,41 +16,41 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+           "@id": "https:\/\/zenochien.github.io\/c#andnetcore\/"
       },
       "articleSection" : "posts",
-      "name" : "Chapter 9",
-      "headline" : "Chapter 9",
-      "description" : "Structs And Enums ",
+      "name" : "Chapter 9: Reactive Programming Patterns and Techniques",
+      "headline" : "Chapter 9: Reactive Programming Patterns and Techniques",
+      "description" : "Reactive Programming Patterns and Techniques In the previous chapter (Chapter 9, Functional Programming Practices), we delved into functional programming and learned about Func, Predicate, LINQ, Lambda, anonymous functions, expression trees, and recursion. We also looked at the implementation of the strategy pattern using functional programming. This chapter will explore the use of reactive programming and provides a hands-on demonstration of reactive programming using the C# language. We will delve into the principles and models of reactive programming and discuss the IObservable and IObserver providers.",
       "inLanguage" : "en-US",
-      "author" : "C# Step by Step",
-      "creator" : "C# Step by Step",
-      "publisher": "C# Step by Step",
-      "accountablePerson" : "C# Step by Step",
-      "copyrightHolder" : "C# Step by Step",
+      "author" : "C and .Net Core",
+      "creator" : "C and .Net Core",
+      "publisher": "C and .Net Core",
+      "accountablePerson" : "C and .Net Core",
+      "copyrightHolder" : "C and .Net Core",
       "copyrightYear" : "2020",
-      "datePublished": "2020-11-06 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-11-06 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter9\/",
+      "datePublished": "2020-11-26 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-26 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/c#andnetcore\/posts\/chapter9\/",
       "keywords" : [  ]
   }
 </script>
-<title>Chapter 9 - Bài thực hành C# Step by Step</title>
-  <meta property="og:title" content="Chapter 9 - Bài thực hành C# Step by Step" />
+<title>Chapter 9: Reactive Programming Patterns and Techniques - Bài thực hành C và .Net Core</title>
+  <meta property="og:title" content="Chapter 9: Reactive Programming Patterns and Techniques - Bài thực hành C và .Net Core" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Structs And Enums " />
-  <meta name="description" content="Structs And Enums " />
+  <meta property="og:description" content="Reactive Programming Patterns and Techniques In the previous chapter (Chapter 9, Functional Programming Practices), we delved into functional programming and learned about Func, Predicate, LINQ, Lambda, anonymous functions, expression trees, and recursion. We also looked at the implementation of the strategy pattern using functional programming. This chapter will explore the use of reactive programming and provides a hands-on demonstration of reactive programming using the C# language. We will delve into the principles and models of reactive programming and discuss the IObservable and IObserver providers." />
+  <meta name="description" content="Reactive Programming Patterns and Techniques In the previous chapter (Chapter 9, Functional Programming Practices), we delved into functional programming and learned about Func, Predicate, LINQ, Lambda, anonymous functions, expression trees, and recursion. We also looked at the implementation of the strategy pattern using functional programming. This chapter will explore the use of reactive programming and provides a hands-on demonstration of reactive programming using the C# language. We will delve into the principles and models of reactive programming and discuss the IObservable and IObserver providers." />
   <meta property="og:locale" content="en-us" />
 
-  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+  <link rel="stylesheet" href="/c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/c/css/index.css">
 
   
 
-  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
-    title="Bài thực hành C# Step by Step">
+  <link href="/c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Bài thực hành C và .Net Core">
   
   <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
   
@@ -67,7 +67,7 @@
           
 <header>
   <div class="signatures site-title">
-    <a href="/">C# Step by Step</a>
+    <a href="/">C and .Net Core</a>
   </div>
 </header>
 <div class="row end-xs">
@@ -78,20 +78,20 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Chapter 9</h1>
+          <h1 class="post-title">Chapter 9: Reactive Programming Patterns and Techniques</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2020-11-06 00:00:00 UTC">
-                06 Nov 2020
+              <time class="post-date" datetime="2020-11-26 00:00:00 UTC">
+                26 Nov 2020
               </time>
               
             </div>
             <div class="col-xs-6">
               
               <div class="post-author">
-                <a target="_blank" href="https://joway.io/">@C# Step by Step</a>
+                <a target="_blank" href="https://joway.io/">@C and .Net Core</a>
               </div>
               
             </div>
@@ -101,12 +101,48 @@
 
         <div class="post-content markdown-body">
           
-          <h2 id="structs-and-enums">Structs And Enums</h2>
-<p><img src="../../img/37.jpg" alt="image">
-<img src="../../img/38.jpg" alt="image">
-<img src="../../img/39.jpg" alt="image">
-<img src="../../img/40.jpg" alt="image">
-<img src="../../img/41.jpg" alt="image"></p>
+          <h2 id="reactive-programming-patterns-and-techniques">Reactive Programming Patterns and Techniques</h2>
+<p>In the previous chapter (Chapter 9, Functional Programming Practices), we delved into functional
+programming and learned about <strong>Func, Predicate, LINQ, Lambda, anonymous functions, expression trees</strong>, and <strong>recursion</strong>. We also looked at the implementation of the strategy pattern using
+functional programming.
+This chapter will explore the use of reactive programming and provides a hands-on demonstration of
+reactive programming using the C# language. We will delve into the principles and models of
+reactive programming and discuss the <code>IObservable</code> and <code>IObserver</code> providers.
+The inventory application will be expanded in two main ways: by reacting to changes and by
+discussing the <strong>Model-View-ViewModel (MVVM)</strong> pattern.
+The following topics will be covered in this chapter:</p>
+<ul>
+<li>The principles of reactive programming</li>
+<li>Reactive and IObservable</li>
+<li>Reactive extensions—.NET Rx Extensions</li>
+<li>Inventory application use case—getting inventory with a filter, paging, and sorting</li>
+<li>Patterns and practices – MVVM</li>
+</ul>
+<h2 id="the-principles-of-reactive-programming">The principles of reactive programming</h2>
+<ul>
+<li>One stream can be the input for another stream.</li>
+<li>Multiple streams can be the input for another stream.</li>
+<li>Streams can be merged.</li>
+<li>Data values can be mapped from one stream to another.</li>
+<li>Streams can be filtered with the data/events that you need.
+<img src="../../img/77.jpg" alt="image"></li>
+</ul>
+<p>On the basis of the reactive manifesto, we can conclude that reactive systems are as follows:</p>
+<ul>
+<li><strong>Responsive</strong>: Reactive systems are event-based design systems; these systems are quick to
+respond to any request in a short amount of time.</li>
+<li><strong>Scalable</strong>: Reactive systems are reactive in nature. These systems can react to changing the
+scalability rate by expanding or reducing the allocated resources.</li>
+<li><strong>Resilient</strong>: A resilient system is one that will not stop even if there is a failure/exception.
+Reactive systems are designed in such a way so that in any exception or failure, the system will
+never die; it remains working.</li>
+<li><strong>Message-based</strong>: Any data item represents a message that can be sent to a specific destination.
+When a message or data item has arrived at a given state, an event emits a signal to notify the
+subscribers that a message has reached. Reactive systems rely on this message passing.
+<img src="../../img/78.jpg" alt="image">
+<img src="../../img/79.jpg" alt="image">
+<img src="../../img/80.jpg" alt="image"></li>
+</ul>
 
         </div>
 
@@ -171,7 +207,7 @@
     </div>
   </article>
 
-  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+  <script src="/c/js/highlight.pack.js"></script>
 
 
 <script>

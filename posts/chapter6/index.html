@@ -6,9 +6,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="C# Step by Step" />
-  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter6/" />
-  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter6/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Bài thực hành C# Step by Step">
+  <meta name="author" content="C and .Net Core" />
+  <meta property="og:url" content="https://zenochien.github.io/c#andnetcore/posts/chapter6/" />
+  <link rel="canonical" href="https://zenochien.github.io/c#andnetcore/posts/chapter6/" /><link rel="preload" href="/c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/c#andnetcore/index.xml" title="Bài thực hành C và .Net Core">
 
   <script type="application/ld+json">
   {
@@ -16,41 +16,43 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+           "@id": "https:\/\/zenochien.github.io\/c#andnetcore\/"
       },
       "articleSection" : "posts",
-      "name" : "Chapter 6",
-      "headline" : "Chapter 6",
-      "description" : "Đã học bài 2 giống bài 6 nhé. Cách khác để mình nhập String hay ko? try\r{\rif ((bool)tong.IsChecked)\r{\rtongValues();\r}\relse if ((bool)tru.IsChecked)\r{\rtruValues();\r}\relse if ((bool)nhan.IsChecked)\r{\rnhanValues();\r}\relse if ((bool)chia.IsChecked)\r{\rchiaValues();\r}\relse if ((bool)phan.IsChecked)\r{\rphamtramValues();\r}\relse\r{\rthrow new InvalidOperationException(\u0026quot;Không có toán tử nào được chọn\u0026quot;);\r}\r}\rcatch (FormatException fEx)\r{\rketqua.Text = fEx.Message;\r}\rcatch (OverflowException oEx)\r{\rketqua.",
+      "name" : "Chapter 6: Implementing Design Patterns for Web Applications - Part 1",
+      "headline" : "Chapter 6: Implementing Design Patterns for Web Applications - Part 1",
+      "description" : "Implementing Design Patterns for Web Applications The following topics will be covered in this chapter:\n Creating a .NET Core web application Crafting a web application Implementing CRUD pages  Creating a .Net Core web application At the beginning of this chapter, we discussed our FlixOne console-based application, and there are various reasons to go with a web application as identified by the business team. Now it\u0026rsquo;s time to make changes in the application.",
       "inLanguage" : "en-US",
-      "author" : "C# Step by Step",
-      "creator" : "C# Step by Step",
-      "publisher": "C# Step by Step",
-      "accountablePerson" : "C# Step by Step",
-      "copyrightHolder" : "C# Step by Step",
+      "author" : "C and .Net Core",
+      "creator" : "C and .Net Core",
+      "publisher": "C and .Net Core",
+      "accountablePerson" : "C and .Net Core",
+      "copyrightHolder" : "C and .Net Core",
       "copyrightYear" : "2020",
-      "datePublished": "2020-11-06 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-11-06 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter6\/",
+      "datePublished": "2020-11-22 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-22 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/c#andnetcore\/posts\/chapter6\/",
       "keywords" : [  ]
   }
 </script>
-<title>Chapter 6 - Bài thực hành C# Step by Step</title>
-  <meta property="og:title" content="Chapter 6 - Bài thực hành C# Step by Step" />
+<title>Chapter 6: Implementing Design Patterns for Web Applications - Part 1 - Bài thực hành C và .Net Core</title>
+  <meta property="og:title" content="Chapter 6: Implementing Design Patterns for Web Applications - Part 1 - Bài thực hành C và .Net Core" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Đã học bài 2 giống bài 6 nhé. Cách khác để mình nhập String hay ko? try{if ((bool)tong.IsChecked){tongValues();}else if ((bool)tru.IsChecked){truValues();}else if ((bool)nhan.IsChecked){nhanValues();}else if ((bool)chia.IsChecked){chiaValues();}else if ((bool)phan.IsChecked){phamtramValues();}else{throw new InvalidOperationException(&quot;Không có toán tử nào được chọn&quot;);}}catch (FormatException fEx){ketqua.Text = fEx.Message;}catch (OverflowException oEx){ketqua." />
-  <meta name="description" content="Đã học bài 2 giống bài 6 nhé. Cách khác để mình nhập String hay ko? try{if ((bool)tong.IsChecked){tongValues();}else if ((bool)tru.IsChecked){truValues();}else if ((bool)nhan.IsChecked){nhanValues();}else if ((bool)chia.IsChecked){chiaValues();}else if ((bool)phan.IsChecked){phamtramValues();}else{throw new InvalidOperationException(&quot;Không có toán tử nào được chọn&quot;);}}catch (FormatException fEx){ketqua.Text = fEx.Message;}catch (OverflowException oEx){ketqua." />
+  <meta property="og:description" content="Implementing Design Patterns for Web Applications The following topics will be covered in this chapter:
+ Creating a .NET Core web application Crafting a web application Implementing CRUD pages  Creating a .Net Core web application At the beginning of this chapter, we discussed our FlixOne console-based application, and there are various reasons to go with a web application as identified by the business team. Now it&rsquo;s time to make changes in the application." />
+  <meta name="description" content="Implementing Design Patterns for Web Applications The following topics will be covered in this chapter:
+ Creating a .NET Core web application Crafting a web application Implementing CRUD pages  Creating a .Net Core web application At the beginning of this chapter, we discussed our FlixOne console-based application, and there are various reasons to go with a web application as identified by the business team. Now it&rsquo;s time to make changes in the application." />
   <meta property="og:locale" content="en-us" />
 
-  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+  <link rel="stylesheet" href="/c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/c/css/index.css">
 
   
 
-  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
-    title="Bài thực hành C# Step by Step">
+  <link href="/c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Bài thực hành C và .Net Core">
   
   <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
   
@@ -67,7 +69,7 @@
           
 <header>
   <div class="signatures site-title">
-    <a href="/">C# Step by Step</a>
+    <a href="/">C and .Net Core</a>
   </div>
 </header>
 <div class="row end-xs">
@@ -78,20 +80,20 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Chapter 6</h1>
+          <h1 class="post-title">Chapter 6: Implementing Design Patterns for Web Applications - Part 1</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2020-11-06 00:00:00 UTC">
-                06 Nov 2020
+              <time class="post-date" datetime="2020-11-22 00:00:00 UTC">
+                22 Nov 2020
               </time>
               
             </div>
             <div class="col-xs-6">
               
               <div class="post-author">
-                <a target="_blank" href="https://joway.io/">@C# Step by Step</a>
+                <a target="_blank" href="https://joway.io/">@C and .Net Core</a>
               </div>
               
             </div>
@@ -101,53 +103,76 @@
 
         <div class="post-content markdown-body">
           
-          <h2 id="đã-học-bài-2-giống-bài-6-nhé-cách-khác-để-mình-nhập-string-hay-ko">Đã học bài 2 giống bài 6 nhé. Cách khác để mình nhập String hay ko?</h2>
-<pre><code>try
-{
-    if ((bool)tong.IsChecked)
-        {
-            tongValues();
-        }
-        else if ((bool)tru.IsChecked)
-        {
-            truValues();
-        }
-        else if ((bool)nhan.IsChecked)
-        {
-            nhanValues();
-        }
-        else if ((bool)chia.IsChecked)
-        {
-            chiaValues();
-        }
-        else if ((bool)phan.IsChecked)
-        {
-            phamtramValues();
-        }
-        else
-        {
-            throw new InvalidOperationException(&quot;Không có toán tử nào được chọn&quot;);
-        }
-    }
-catch (FormatException fEx)
-    {
-        ketqua.Text = fEx.Message;
-    }
-catch (OverflowException oEx)
-    {
-        ketqua.Text = oEx.Message;
-    }
-catch (InvalidOperationException ioEx)
-    {
-        ketqua.Text = ioEx.Message;
-    }
-catch (Exception ex)
-    {
-        ketqua.Text = ex.Message;
-    }
-}
-</code></pre><h2 id="màn-hình">Màn hình</h2>
-<p><img src="../../img/21.jpg" alt="image"></p>
+          <h2 id="implementing-design-patterns-for-web-applications">Implementing Design Patterns for Web Applications</h2>
+<p>The following topics will be covered in this chapter:</p>
+<ul>
+<li>Creating a .NET Core web application</li>
+<li>Crafting a web application</li>
+<li>Implementing CRUD pages</li>
+</ul>
+<h2 id="creating-a-net-core-web-application">Creating a .Net Core web application</h2>
+<p>At the beginning of this chapter, we discussed our FlixOne console-based application, and there are
+various reasons to go with a web application as identified by the business team. Now it&rsquo;s time to
+make changes in the application. In this section, we will start the creation of a new UI of our existing
+FlixOne application with a new look and feel. We will also discuss all the requirements and
+initialization.</p>
+<h2 id="kicking-off-the-project">Kicking off the project</h2>
+<p>In continuation of our existing FlixOne console application, management has decided to revamp our
+FlixOne Inventory console application with a lot of features. Management came to the conclusion that
+we have to convert our existing console application into a web-based solution.</p>
+<p>The tech team and the business team sat down together and identified the various reasons why the
+decision was made to scrap the current console application:</p>
+<ul>
+<li>The interface is not interactive.</li>
+<li>The application is not available everywhere.</li>
+<li>It is complex to maintain.</li>
+<li>The growing business needs a scalable system with higher performance and adaptability.</li>
+</ul>
+<h2 id="developing-requirements">Developing requirements</h2>
+<p>The following list of requirements was produced as the outcome of the discussions. The high-level
+requirements identified are as follows:</p>
+<ul>
+<li>Product categorization</li>
+<li>Product addition</li>
+<li>Product updating</li>
+<li>Product deletion
+The actual requirements that the business demands fall on the developers. These technical
+requirements include the following:</li>
+<li><strong>A landing or home page</strong>: This should be a dashboard that contains various widgets, and it should show a summary of the store.</li>
+<li><strong>A product page</strong>: This should have the ability to add, update, and delete products and categories.</li>
+</ul>
+<h2 id="crafting-a-web-application">Crafting a web application</h2>
+<p>According to the requirements just discussed, our main goal is to convert our existing console
+application to a web application. In the process of this conversion, we will discuss various design
+patterns for web applications, and the importance of these design patterns in the context of web
+applications.</p>
+<h2 id="web-applications-and-how-they-work">Web applications and how they work</h2>
+<p>A web application serves requests and responses via browsers, mainly through the use of HyperText
+Transfer Protocol (HTTP).
+<img src="../../img/58.jpg" alt="image">
+The web application requires a web server (such as IIS or Apache) to manage requests coming from
+the client (from the browser, as can be seen in the previous diagram). An application server (such as
+IIS or Apache Tomcat) is also required to perform the tasks requested. A database is sometimes
+needed to store the information as well.</p>
+<p>In the following sections, I will describe the working process of the web application using the
+Model-View-Controller (MVC) pattern.
+If we were to visualize the MVC model, then it would work as shown in the following diagram:
+<img src="../../img/60.jpg" alt="image">
+The preceding screenshot is a simple product listing, and it represents the Read section of the CRUDoperations. On this screen, the application shows the total available products and their categories.
+The following diagram depicts how our application interacts:
+<img src="../../img/61.jpg" alt="image"></p>
+<h2 id="summary">Summary</h2>
+<p>The main goal of this chapter was to start a basic web application.</p>
+<p>We started the chapter by discussing business requirements, why we needed a web application, and
+why we wanted to upgrade our console application. We then covered the step-by-step creation of a
+web application using Visual Studio in the MVC pattern. We also discussed how a web application
+can work as a client-server model, and looked at user interface patterns. We also started building
+CRUD pages.</p>
+<p>In the next chapter, we will continue with the web application and discuss more design patterns for
+web applications.</p>
+<h2 id="authentication-in-action">Authentication in action</h2>
+<p><img src="../../img/62.jpg" alt="image">
+<img src="../../img/63.jpg" alt="image"></p>
 
         </div>
 
@@ -212,7 +237,7 @@ catch (Exception ex)
     </div>
   </article>
 
-  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+  <script src="/c/js/highlight.pack.js"></script>
 
 
 <script>

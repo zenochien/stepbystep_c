@@ -1,262 +1,116 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bài thực hành C# Step by Step</title>
-    <link>https://zenochien.github.io/stepbystep_c/</link>
-    <description>Recent content on Bài thực hành C# Step by Step</description>
+    <title>Bài thực hành C và .Net Core</title>
+    <link>https://zenochien.github.io/c#andnetcore/</link>
+    <description>Recent content on Bài thực hành C và .Net Core</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/stepbystep_c/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://zenochien.github.io/c#andnetcore/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chapter 10</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter10/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 10: Reactive Programming Patterns and Techniques</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter10/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter10/</guid>
-      <description>Creating jagged arrays Card </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter10/</guid>
+      <description>Reactive Programming Patterns and Techniques  What is a stream?  A sequence of events is called a stream. A stream can emit three things: a value, an error, and a signal for completion.
+What are reactive properties?  -Reactive properties are binding properties that react when an event triggers.
+What is a reactive system?  On the basis of the Reactive Manifesto, we can conclude that reactive systems are as follows:</description>
     </item>
     
     <item>
-      <title>Chapter 11</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter11/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 9: Reactive Programming Patterns and Techniques</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter9/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter11/</guid>
-      <description>Understanding parameter arrays </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter9/</guid>
+      <description>Reactive Programming Patterns and Techniques In the previous chapter (Chapter 9, Functional Programming Practices), we delved into functional programming and learned about Func, Predicate, LINQ, Lambda, anonymous functions, expression trees, and recursion. We also looked at the implementation of the strategy pattern using functional programming. This chapter will explore the use of reactive programming and provides a hands-on demonstration of reactive programming using the C# language. We will delve into the principles and models of reactive programming and discuss the IObservable and IObserver providers.</description>
     </item>
     
     <item>
-      <title>Chapter 12</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter12/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 8: Concurrent Programming in .NET Core</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter8/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter12/</guid>
-      <description>Working with inheritance Understanding protected access Creating extension methods </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter8/</guid>
+      <description>Concurrent Programming in .NET Core In the previous chapter (Chapter 7, Implementing Design Patterns for Web Applications - Part 2), we created a sample web application with the help of various patterns for the web. We adapted authorization and authentication mechanisms to secure a web application and discussed Test-driven development (TDD) to make sure that our code has been tested and is working.
+This chapter will discuss the best practices to adopt while performing concurrent programming in .</description>
     </item>
     
     <item>
-      <title>Chapter 13</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter13/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 7: Implementing Design Patterns for Web Applications - Part 2</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter7/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter13/</guid>
-      <description>Creating interfaces and defining abstract classes Drawing Pad </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter7/</guid>
+      <description>Implementing Design Patterns for Web Applications We also covered User Interface (UI) architectural patterns such as Model-View-Controller (MVC), Model View Presenter (MVP) and others. The previous chapter aimed to discuss patterns such as MVC. We now need to extend our existing application to incorporate more patterns.
+In this chapter, we will continue with our existing FlixOne web application and extend the application by working on code to see the implementation of authentication and authorization.</description>
     </item>
     
     <item>
-      <title>Chapter 14</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter14/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 6: Implementing Design Patterns for Web Applications - Part 1</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter6/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter14/</guid>
-      <description>Using garbage collection and resource management Implementing exception-safe disposal </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter6/</guid>
+      <description>Implementing Design Patterns for Web Applications The following topics will be covered in this chapter:
+ Creating a .NET Core web application Crafting a web application Implementing CRUD pages  Creating a .Net Core web application At the beginning of this chapter, we discussed our FlixOne console-based application, and there are various reasons to go with a web application as identified by the business team. Now it&amp;rsquo;s time to make changes in the application.</description>
     </item>
     
     <item>
-      <title>Chapter 15</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter15/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 4: Implementing Design Patterns - Basics Part 2</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter4/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter15/</guid>
-      <description>Implementing properties to access fields Replacing methods with properties </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter4/</guid>
+      <description>Implementing Design Patterns - Abstract and Observer Patterns  The singleton pattern The factory pattern Features of .NET Core Console application  The singleton pattern The singleton pattern is another GoF design pattern that is used to restrict the instantiation of a class to one object. It is used in situations where actions within a system need to be coordinated or access to data needs to be limited. For example, if access to a file needs to be restricted within an application to a single writer, then a singleton could be used to prevent multiple objects from trying to write to the file at the same time.</description>
     </item>
     
     <item>
-      <title>Chapter 16</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter16/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 5: Implementing Design Patterns - .NET Core</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter5/</link>
+      <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter16/</guid>
-      <description>Handling binary data and using indexers Using indexers in a Windows application </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter5/</guid>
+      <description>Implementing Design Patterns - .NET Core The previous chapter continued the building of the FlixOne inventory management application by incorporating additional patterns. More of the Gang of Four patterns were used, including the Singleton and Factory patterns. The Singleton pattern was used to illustrate the Repository pattern that was used to maintain the FlixOne collection of books. The Factory pattern was used to further explore the dependency injection (DI). The .</description>
     </item>
     
     <item>
-      <title>Chapter 17</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter17/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 1 - Overview of OOPs and design patterns in .NET Core and C#</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter1/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter17/</guid>
-      <description>Introducing generics The theory of binary trees </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter1/</guid>
+      <description>Overview of OOPs and design patterns in .NET Core and C#  Discussing OOP and the working of classes and objects Pattern &amp;amp; Practices for solution development, cloud development and services development Overview of Pattern-catalogs such as GoF patterns, EIP catalog, POSA catalog and others Language specific patterns in C# and .NET Core like singleton pattern, delegates and delegation pattern (Observer pattern) and C# constructors and constructor injections Do we really need design patterns?</description>
     </item>
     
     <item>
-      <title>Chapter 17</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter18/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 3: Inventory Application Overview - Basics Part 1</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter3/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter18/</guid>
-      <description>Using collections Using collection classes to play cards </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter3/</guid>
+      <description>Inventory Application Overview  Project Kickoff and Requirements Gathering Test Driven Development Abstract Factory Design Pattern  Implementing Design Patterns This chapter will cover the kickoff of a new project and the creation of the first release of the application. The following patterns are illustrated in this chapter:
+ Minimal Viable Product (MVP) Test-driven development (TDD) Abstract Factory pattern (Gang of Four) SOLID principles  MInimal Viable Product (MVP) Many approaches, which can be viewed as patterns, exist for the determining the features of a software application.</description>
     </item>
     
     <item>
-      <title>Chapter 19</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter19/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Introduce book Hands-On Design Patterns with Csharp and .NET Core</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/introduce/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter19/</guid>
-      <description>Enumerating collections Implementing the IEnumerable interface </description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/introduce/</guid>
+      <description>Hands-On Design Patterns with Csharp and .NET Core This in-depth immersion into the Object-oriented programming (OOP) and .NET Core worlds is profitable to anyone interested in writing best-in-class applications.
+What this book covers Chapter 1, Overview of OOP in .NET Core and C#, contains an overview of Object-orientedprogramming (OOP) and how it applies to C#. This chapter serves as a refresher of the important constructs and features of OOP and C#, including inheritance, encapsulation, and polymorphism.</description>
     </item>
     
     <item>
-      <title>Chapter 21</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter21/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
+      <title>Chapter 2 - Modern Software Design Patterns and Principles</title>
+      <link>https://zenochien.github.io/c#andnetcore/posts/chapter2/</link>
+      <pubDate>Wed, 18 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter21/</guid>
-      <description>Querying in-memory data by using query expressions </description>
-    </item>
-    
-    <item>
-      <title>Chapter 22</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter22/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter22/</guid>
-      <description>Operator overloading </description>
-    </item>
-    
-    <item>
-      <title>Chapter 23</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter23/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter23/</guid>
-      <description>Improving throughput by using tasks Graph Demo Parallel GraphDemo </description>
-    </item>
-    
-    <item>
-      <title>Chapter 24</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter24/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter24/</guid>
-      <description>Improving response time by performing asynchronous operations Grapht demo PLINQ </description>
-    </item>
-    
-    <item>
-      <title>Chapter 25</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter25/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter25/</guid>
-      <description>Implementing the user interface for a Universal Windows Platform app Implementing the Model–View–ViewModel pattern </description>
-    </item>
-    
-    <item>
-      <title>Chapter 26</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter26/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter26/</guid>
-      <description>Displaying and searching for data in a Universal Windows Platform app Implementing the Model–View–ViewModel pattern </description>
-    </item>
-    
-    <item>
-      <title>Chapter 27</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter27/</link>
-      <pubDate>Thu, 12 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter27/</guid>
-      <description>Accessing a remote database from a Universal Windows Platform app Retrieving data from a database </description>
-    </item>
-    
-    <item>
-      <title>Chapter 6</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter6/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter6/</guid>
-      <description>Đã học bài 2 giống bài 6 nhé. Cách khác để mình nhập String hay ko? try{if ((bool)tong.IsChecked){tongValues();}else if ((bool)tru.IsChecked){truValues();}else if ((bool)nhan.IsChecked){nhanValues();}else if ((bool)chia.IsChecked){chiaValues();}else if ((bool)phan.IsChecked){phamtramValues();}else{throw new InvalidOperationException(&amp;quot;Không có toán tử nào được chọn&amp;quot;);}}catch (FormatException fEx){ketqua.Text = fEx.Message;}catch (OverflowException oEx){ketqua.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 7</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter7/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter7/</guid>
-      <description>Creating and managing classes and objects Tạo Class và Object Tạo Class &amp;lsquo;Ponit&amp;rsquo;
-Tạo MainPage.cs
-Màn hình </description>
-    </item>
-    
-    <item>
-      <title>Chapter 8</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter8/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter8/</guid>
-      <description>How Computer memory is organized The System.Object class Boxing Unboxing Chạy chương trình và kết quả </description>
-    </item>
-    
-    <item>
-      <title>Chapter 9</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter9/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter9/</guid>
-      <description>Structs And Enums </description>
-    </item>
-    
-    <item>
-      <title>Chapter 5</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter5/</link>
-      <pubDate>Thu, 05 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter5/</guid>
-      <description>Câu lệnh While Trước khi mình cần thêm 2 using Màn hình Output Biểu diễn bát phân Màn hình Output </description>
-    </item>
-    
-    <item>
-      <title>Chapter 4</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter4/</link>
-      <pubDate>Wed, 04 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter4/</guid>
-      <description>Hôm nay luyện tập bài 4 Mình tự học thực hành C# UWP
-Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Paste Màn hình Output </description>
-    </item>
-    
-    <item>
-      <title>Chapter 3</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter3/</link>
-      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter3/</guid>
-      <description>Giống bài 2 trước, cách khác mình thử xem Trước khi kết quả, mình cần try{&amp;hellip;} catch {&amp;hellip;}
-khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)int calculatedValue = 0;try{int txt1 = System.Int32.Parse(txt1.Text); //x:Name=&amp;quot;txt1&amp;quot;int txt2 = System.Int32.Parse(txt2.Text); //x:Name=&amp;quot;txt1&amp;quot;if (pheptoan.IsChecked.HasValue &amp;amp;&amp;amp; pheptoan.IsChecked.Value){calculatedValue = addValues(leftHandSide, rightHandSide);showResult(calculatedValue);}else if ... giống như pheptoancatch (Exception caught){expression.Text = &amp;quot;&amp;quot;;result.Text = caught.Message;}private void pheptong(){int so1 = int.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 2</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter2/</link>
-      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter2/</guid>
-      <description>Phép tính Chúng mình tạo chức năng phép tính và kiểu dữ liệu
- private void pheptong(){int so1 = int.Parse(txt1.Text); //hạng số 1int so2 = int.Parse(txt2.Text); //hạng số 2int outcome = 0;//Xuất hiện kết quảoutcome = so1 + so2;bieuhien.Text = $&amp;quot;{txt1.Text} + {txt2.Text}&amp;quot;;ketqua.Text = outcome.ToString();}private void phantram(){int so1 = int.Parse(txt1.Text);int so2 = int.Parse(txt2.Text);int outcome = 0;outcome = so1 % so2;bieuhien.</description>
-    </item>
-    
-    <item>
-      <title>Chapter 1</title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter1/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter1/</guid>
-      <description>VS2017 C# Step by Step Code samples
-download
-Book VS2017 C# Step by Step
-download
-Khởi đầu Visual Studio 2019 is a tool-rich programming environment containing the functionality that you need to create large or small C# projects running on Windows. Bài thực hành ví dụ  public sealed partial class MainPage : Page{public MainPage(){this.InitializeComponent();}private void okClick(object sender, RoutedEventArgs e){MessageDialog msg = new MessageDialog(&amp;quot; &amp;quot; + txt1.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://zenochien.github.io/stepbystep_c/posts/chapter20/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zenochien.github.io/stepbystep_c/posts/chapter20/</guid>
-      <description></description>
+      <guid>https://zenochien.github.io/c#andnetcore/posts/chapter2/</guid>
+      <description>Modern Software Design Patterns and Principles  Design Principles Software Patterns Software Development Lifecycle Patterns Additional Software Patterns  Design principles (Nguyên tắc thiết kế) Arguably, the most important aspect of good software development is software design. Developing software solutions that are both functionally accurate and easy to maintain is challenging and relies considerably on using good development principles. Over time, some decisions that were made early in the project can cause solutions to become too costly to maintain and extend, forcing systems to be rewritten, while others with a good design can be extended and adapted as business requirements and technology change.</description>
     </item>
     
   </channel>

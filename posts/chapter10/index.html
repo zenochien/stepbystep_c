@@ -6,9 +6,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="C# Step by Step" />
-  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter10/" />
-  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter10/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Bài thực hành C# Step by Step">
+  <meta name="author" content="C and .Net Core" />
+  <meta property="og:url" content="https://zenochien.github.io/c#andnetcore/posts/chapter10/" />
+  <link rel="canonical" href="https://zenochien.github.io/c#andnetcore/posts/chapter10/" /><link rel="preload" href="/c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/c#andnetcore/index.xml" title="Bài thực hành C và .Net Core">
 
   <script type="application/ld+json">
   {
@@ -16,41 +16,45 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+           "@id": "https:\/\/zenochien.github.io\/c#andnetcore\/"
       },
       "articleSection" : "posts",
-      "name" : "Chapter 10",
-      "headline" : "Chapter 10",
-      "description" : "Creating jagged arrays Card ",
+      "name" : "Chapter 10: Reactive Programming Patterns and Techniques",
+      "headline" : "Chapter 10: Reactive Programming Patterns and Techniques",
+      "description" : "Reactive Programming Patterns and Techniques  What is a stream?  A sequence of events is called a stream. A stream can emit three things: a value, an error, and a signal for completion.\nWhat are reactive properties?  -Reactive properties are binding properties that react when an event triggers.\nWhat is a reactive system?  On the basis of the Reactive Manifesto, we can conclude that reactive systems are as follows:",
       "inLanguage" : "en-US",
-      "author" : "C# Step by Step",
-      "creator" : "C# Step by Step",
-      "publisher": "C# Step by Step",
-      "accountablePerson" : "C# Step by Step",
-      "copyrightHolder" : "C# Step by Step",
+      "author" : "C and .Net Core",
+      "creator" : "C and .Net Core",
+      "publisher": "C and .Net Core",
+      "accountablePerson" : "C and .Net Core",
+      "copyrightHolder" : "C and .Net Core",
       "copyrightYear" : "2020",
-      "datePublished": "2020-11-12 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-11-12 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter10\/",
+      "datePublished": "2020-11-26 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-26 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/c#andnetcore\/posts\/chapter10\/",
       "keywords" : [  ]
   }
 </script>
-<title>Chapter 10 - Bài thực hành C# Step by Step</title>
-  <meta property="og:title" content="Chapter 10 - Bài thực hành C# Step by Step" />
+<title>Chapter 10: Reactive Programming Patterns and Techniques - Bài thực hành C và .Net Core</title>
+  <meta property="og:title" content="Chapter 10: Reactive Programming Patterns and Techniques - Bài thực hành C và .Net Core" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Creating jagged arrays Card " />
-  <meta name="description" content="Creating jagged arrays Card " />
+  <meta property="og:description" content="Reactive Programming Patterns and Techniques  What is a stream?  A sequence of events is called a stream. A stream can emit three things: a value, an error, and a signal for completion.
+What are reactive properties?  -Reactive properties are binding properties that react when an event triggers.
+What is a reactive system?  On the basis of the Reactive Manifesto, we can conclude that reactive systems are as follows:" />
+  <meta name="description" content="Reactive Programming Patterns and Techniques  What is a stream?  A sequence of events is called a stream. A stream can emit three things: a value, an error, and a signal for completion.
+What are reactive properties?  -Reactive properties are binding properties that react when an event triggers.
+What is a reactive system?  On the basis of the Reactive Manifesto, we can conclude that reactive systems are as follows:" />
   <meta property="og:locale" content="en-us" />
 
-  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+  <link rel="stylesheet" href="/c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/c/css/index.css">
 
   
 
-  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
-    title="Bài thực hành C# Step by Step">
+  <link href="/c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Bài thực hành C và .Net Core">
   
   <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
   
@@ -67,7 +71,7 @@
           
 <header>
   <div class="signatures site-title">
-    <a href="/">C# Step by Step</a>
+    <a href="/">C and .Net Core</a>
   </div>
 </header>
 <div class="row end-xs">
@@ -78,20 +82,20 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Chapter 10</h1>
+          <h1 class="post-title">Chapter 10: Reactive Programming Patterns and Techniques</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2020-11-12 00:00:00 UTC">
-                12 Nov 2020
+              <time class="post-date" datetime="2020-11-26 00:00:00 UTC">
+                26 Nov 2020
               </time>
               
             </div>
             <div class="col-xs-6">
               
               <div class="post-author">
-                <a target="_blank" href="https://joway.io/">@C# Step by Step</a>
+                <a target="_blank" href="https://joway.io/">@C and .Net Core</a>
               </div>
               
             </div>
@@ -101,14 +105,73 @@
 
         <div class="post-content markdown-body">
           
-          <h2 id="creating-jagged-arrays-card">Creating jagged arrays Card</h2>
-<p><img src="../../img/48.jpg" alt="image">
-<img src="../../img/42.jpg" alt="image">
-<img src="../../img/43.jpg" alt="image">
-<img src="../../img/44.jpg" alt="image">
-<img src="../../img/45.jpg" alt="image">
-<img src="../../img/46.jpg" alt="image">
-<img src="../../img/47.jpg" alt="image"></p>
+          <h2 id="reactive-programming-patterns-and-techniques">Reactive Programming Patterns and Techniques</h2>
+<ol>
+<li><strong>What is a stream?</strong></li>
+</ol>
+<p>A sequence of events is called a stream. A stream can emit three things: a value, an error, and
+a signal for completion.</p>
+<ol start="2">
+<li><strong>What are reactive properties?</strong></li>
+</ol>
+<p>-Reactive properties are binding properties that react when an event triggers.</p>
+<ol start="3">
+<li><strong>What is a reactive system?</strong></li>
+</ol>
+<p>On the basis of the Reactive Manifesto, we can conclude that reactive systems are as follows:</p>
+<ul>
+<li><strong>Responsive</strong>: Reactive systems are event-based design systems because of this design
+approach; these systems are quick to respond to any request in a short time.</li>
+<li><strong>Scalable</strong>: Reactive systems are reactive in nature. These systems can react to change the
+scalability rate by expanding or reducing the allocated resources.</li>
+<li><strong>Resilient</strong>: A resilient system is one that would not stop, even if there is any
+failure/exception. Reactive systems are designed in such a way that, despite any exception
+or failure, the system will never die; it remains working.</li>
+<li><strong>Message-based</strong>: Any data of an item represents a message and can be sent to a specific
+destination. When a message or data has arrived at a given state, an event that is a signal is
+emitted to notify that the message has been received. Reactive systems rely on this
+message-passing.</li>
+</ul>
+<ol start="4">
+<li><strong>What is meant by merging two reactive streams?</strong></li>
+</ol>
+<p>Merging two reactive steams is actually combining elements of two similar or different
+reactive streams into a new reactive stream. For example, if you have stream1, and stream2 then
+stream3 = stream1.merge(stream2), but the sequence of stream3 would not be in order.</p>
+<ol start="5">
+<li><strong>What is the MVVM pattern?</strong></li>
+</ol>
+<p><strong>Model-View-ViewModel (MVVM)</strong> is one of the variations of <strong>Model-ViewController (MVC)</strong> to meet the modern UI development approach, where UI development is the core responsibility of designer/UI-developers, rather than application developers. In this approach of development, a designer who is more of a graphical enthusiast and is focused on
+making the user interface more attractive may or may not bother about the development part of the application. Generally, designers (UI persons) use various tools to make the user interfacemore attractive. The MVVM is defined as follows:</p>
+<ul>
+<li><strong>Model</strong>: This is also called as a domain object and it holds data only; there is no business
+logic, validations, and so on.</li>
+<li><strong>View</strong>: This is a representation of data for the end user.</li>
+<li><strong>View Model</strong>: This separates View and Model; its main responsibility is to serve end users
+better stuff.</li>
+</ul>
+<h2 id="patterns-and-practices--mvvm">Patterns and Practices – MVVM</h2>
+<p>Ken Cooper and Ted Peters are the names behind the invention of the MVVM pattern. At the time of
+this invention, both Ken and Ted were architects at the Microsoft Corporation. They made this pattern
+to simplify the UI of event-driven programming. Later on, it was implemented in <strong>Windows Presentation Foundation (WPF)</strong> and <strong>Silverlight</strong>.
+The MVVM pattern can be elaborated with its various components as follows:</p>
+<ul>
+<li>Model: Holds data and does not care about any business logic in the application. I prefer to
+refer to this as a domain object because it holds the actual data of the application we are
+working with.</li>
+<li>View: This is a data representation for the end user to access via the UI. This simply displays
+the value of the data, and this value may or may not be formatted. For example, we can show the
+discount rate as 18% on the UI, while it would be stored as 18.00 in the model.</li>
+<li>ViewModel: This works as a middleman between View and Model. Its responsibility is to make
+the presentation better. In our previous example, where View shows the discount rate as 18% but
+Model has a discount rate of 18.00, it is the responsibility of View Model to format 18.00 to
+18% so that View can display the formatted discount rate.
+<img src="../../img/81.jpg" alt="image">
+The preceding diagram is a pictorial view of MVVM, and it shows us that <strong>View Model</strong> separates
+<strong>View</strong> and <strong>Model</strong>. <strong>ViewModel</strong> also maintains the state and perform operations. This helps View to
+present the final output to the end user. The view is UI, which gets data and presents it to the end user.
+In the next section, we will implement the MVVM pattern using Angular.</li>
+</ul>
 
         </div>
 
@@ -173,7 +236,7 @@
     </div>
   </article>
 
-  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+  <script src="/c/js/highlight.pack.js"></script>
 
 
 <script>

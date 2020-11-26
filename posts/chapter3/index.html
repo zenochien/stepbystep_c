@@ -6,9 +6,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="C# Step by Step" />
-  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter3/" />
-  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter3/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Bài thực hành C# Step by Step">
+  <meta name="author" content="C and .Net Core" />
+  <meta property="og:url" content="https://zenochien.github.io/c#andnetcore/posts/chapter3/" />
+  <link rel="canonical" href="https://zenochien.github.io/c#andnetcore/posts/chapter3/" /><link rel="preload" href="/c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/c#andnetcore/index.xml" title="Bài thực hành C và .Net Core">
 
   <script type="application/ld+json">
   {
@@ -16,43 +16,43 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+           "@id": "https:\/\/zenochien.github.io\/c#andnetcore\/"
       },
       "articleSection" : "posts",
-      "name" : "Chapter 3",
-      "headline" : "Chapter 3",
-      "description" : "Giống bài 2 trước, cách khác mình thử xem Trước khi kết quả, mình cần try{\u0026hellip;} catch {\u0026hellip;}\nkhởi đầu: private void calculateClick(object sender, RoutedEventArgs e)\rint calculatedValue = 0;\rtry\r{\rint txt1 = System.Int32.Parse(txt1.Text); \/\/x:Name=\u0026quot;txt1\u0026quot;\rint txt2 = System.Int32.Parse(txt2.Text); \/\/x:Name=\u0026quot;txt1\u0026quot;\rif (pheptoan.IsChecked.HasValue \u0026amp;\u0026amp; pheptoan.IsChecked.Value)\r{\rcalculatedValue = addValues(leftHandSide, rightHandSide);\rshowResult(calculatedValue);\r}\relse if ... giống như pheptoan\rcatch (Exception caught)\r{\rexpression.Text = \u0026quot;\u0026quot;;\rresult.Text = caught.Message;\r}\rprivate void pheptong()\r{\rint so1 = int.",
+      "name" : "Chapter 3: Inventory Application Overview - Basics Part 1",
+      "headline" : "Chapter 3: Inventory Application Overview - Basics Part 1",
+      "description" : "Inventory Application Overview  Project Kickoff and Requirements Gathering Test Driven Development Abstract Factory Design Pattern  Implementing Design Patterns This chapter will cover the kickoff of a new project and the creation of the first release of the application. The following patterns are illustrated in this chapter:\n Minimal Viable Product (MVP) Test-driven development (TDD) Abstract Factory pattern (Gang of Four) SOLID principles  MInimal Viable Product (MVP) Many approaches, which can be viewed as patterns, exist for the determining the features of a software application.",
       "inLanguage" : "en-US",
-      "author" : "C# Step by Step",
-      "creator" : "C# Step by Step",
-      "publisher": "C# Step by Step",
-      "accountablePerson" : "C# Step by Step",
-      "copyrightHolder" : "C# Step by Step",
+      "author" : "C and .Net Core",
+      "creator" : "C and .Net Core",
+      "publisher": "C and .Net Core",
+      "accountablePerson" : "C and .Net Core",
+      "copyrightHolder" : "C and .Net Core",
       "copyrightYear" : "2020",
-      "datePublished": "2020-11-03 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-11-03 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter3\/",
+      "datePublished": "2020-11-19 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-19 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/c#andnetcore\/posts\/chapter3\/",
       "keywords" : [  ]
   }
 </script>
-<title>Chapter 3 - Bài thực hành C# Step by Step</title>
-  <meta property="og:title" content="Chapter 3 - Bài thực hành C# Step by Step" />
+<title>Chapter 3: Inventory Application Overview - Basics Part 1 - Bài thực hành C và .Net Core</title>
+  <meta property="og:title" content="Chapter 3: Inventory Application Overview - Basics Part 1 - Bài thực hành C và .Net Core" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Giống bài 2 trước, cách khác mình thử xem Trước khi kết quả, mình cần try{&hellip;} catch {&hellip;}
-khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)int calculatedValue = 0;try{int txt1 = System.Int32.Parse(txt1.Text); //x:Name=&quot;txt1&quot;int txt2 = System.Int32.Parse(txt2.Text); //x:Name=&quot;txt1&quot;if (pheptoan.IsChecked.HasValue &amp;&amp; pheptoan.IsChecked.Value){calculatedValue = addValues(leftHandSide, rightHandSide);showResult(calculatedValue);}else if ... giống như pheptoancatch (Exception caught){expression.Text = &quot;&quot;;result.Text = caught.Message;}private void pheptong(){int so1 = int." />
-  <meta name="description" content="Giống bài 2 trước, cách khác mình thử xem Trước khi kết quả, mình cần try{&hellip;} catch {&hellip;}
-khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)int calculatedValue = 0;try{int txt1 = System.Int32.Parse(txt1.Text); //x:Name=&quot;txt1&quot;int txt2 = System.Int32.Parse(txt2.Text); //x:Name=&quot;txt1&quot;if (pheptoan.IsChecked.HasValue &amp;&amp; pheptoan.IsChecked.Value){calculatedValue = addValues(leftHandSide, rightHandSide);showResult(calculatedValue);}else if ... giống như pheptoancatch (Exception caught){expression.Text = &quot;&quot;;result.Text = caught.Message;}private void pheptong(){int so1 = int." />
+  <meta property="og:description" content="Inventory Application Overview  Project Kickoff and Requirements Gathering Test Driven Development Abstract Factory Design Pattern  Implementing Design Patterns This chapter will cover the kickoff of a new project and the creation of the first release of the application. The following patterns are illustrated in this chapter:
+ Minimal Viable Product (MVP) Test-driven development (TDD) Abstract Factory pattern (Gang of Four) SOLID principles  MInimal Viable Product (MVP) Many approaches, which can be viewed as patterns, exist for the determining the features of a software application." />
+  <meta name="description" content="Inventory Application Overview  Project Kickoff and Requirements Gathering Test Driven Development Abstract Factory Design Pattern  Implementing Design Patterns This chapter will cover the kickoff of a new project and the creation of the first release of the application. The following patterns are illustrated in this chapter:
+ Minimal Viable Product (MVP) Test-driven development (TDD) Abstract Factory pattern (Gang of Four) SOLID principles  MInimal Viable Product (MVP) Many approaches, which can be viewed as patterns, exist for the determining the features of a software application." />
   <meta property="og:locale" content="en-us" />
 
-  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+  <link rel="stylesheet" href="/c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/c/css/index.css">
 
   
 
-  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
-    title="Bài thực hành C# Step by Step">
+  <link href="/c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Bài thực hành C và .Net Core">
   
   <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
   
@@ -69,7 +69,7 @@ khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)int
           
 <header>
   <div class="signatures site-title">
-    <a href="/">C# Step by Step</a>
+    <a href="/">C and .Net Core</a>
   </div>
 </header>
 <div class="row end-xs">
@@ -80,20 +80,20 @@ khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)int
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Chapter 3</h1>
+          <h1 class="post-title">Chapter 3: Inventory Application Overview - Basics Part 1</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2020-11-03 00:00:00 UTC">
-                03 Nov 2020
+              <time class="post-date" datetime="2020-11-19 00:00:00 UTC">
+                19 Nov 2020
               </time>
               
             </div>
             <div class="col-xs-6">
               
               <div class="post-author">
-                <a target="_blank" href="https://joway.io/">@C# Step by Step</a>
+                <a target="_blank" href="https://joway.io/">@C and .Net Core</a>
               </div>
               
             </div>
@@ -103,67 +103,125 @@ khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)int
 
         <div class="post-content markdown-body">
           
-          <h2 id="giống-bài-2-trước-cách-khác-mình-thử-xem">Giống bài 2 trước, cách khác mình thử xem</h2>
-<p>Trước khi kết quả, mình cần try{&hellip;} catch {&hellip;}</p>
-<pre><code>khởi đầu: private void calculateClick(object sender, RoutedEventArgs e)
-int calculatedValue = 0;
-
- try
-{
-    int txt1 = System.Int32.Parse(txt1.Text); //x:Name=&quot;txt1&quot;
-    int txt2 = System.Int32.Parse(txt2.Text); //x:Name=&quot;txt1&quot;
-
-    if (pheptoan.IsChecked.HasValue &amp;&amp; pheptoan.IsChecked.Value)
-    {
-        calculatedValue = addValues(leftHandSide, rightHandSide);
-        showResult(calculatedValue);
-    }
-    else if 
-    ... giống như pheptoan
- catch (Exception caught)
-    {
-        expression.Text = &quot;&quot;;
-        result.Text = caught.Message;
-    }
-</code></pre><pre><code>private void pheptong()
-{
-    int so1 = int.Parse(txt1.Text); //hạng số 1
-    int so2 = int.Parse(txt2.Text); //hạng số 2
-    int outcome = 0;
-    //Xuất hiện kết quả
-    outcome = so1 + so2;
-    bieuhien.Text = $&quot;{txt1.Text} + {txt2.Text}&quot;;
-    ketqua.Text = outcome.ToString();
-}
-Ví dụ tương tự
-private int addValues(int leftHandSide, int rightHandSide)
-{
-    expression.Text = $&quot;{...} + {...}&quot;;   //ví dụ: x:Name=&quot;expression&quot; thay &quot;bieuhien&quot;
-    return leftHandSide + rightHandSide;  //x:Name=&quot;leftHandSide&quot; thay &quot;txt1&quot;      
-}
-
-private void pheptong(int txt1, int txt2)
-{
-    bieuhien.Text = $&quot;{txt1} + {txt2}&quot;;
-    return txt1 + txt2;
-}
-</code></pre><h2 id="tiếp-là-học-cơ-bản-c-net-framework">Tiếp là học cơ bản c# .Net Framework</h2>
-<p>Mình cần giải quyết vấn đề để tác vụ cấu trúc.
-Ví dụ: <code>readDouble(&quot;Nhap so hang ngay:  &quot;);</code></p>
-<p>mình nút trái &ldquo;Quick Actions and Refactorings&rdquo; 
-xuất hiện mình thấy:
-<code>private double readDouble(string v)</code>
-<code>{</code>
-<code>throw new NotImplementedException();</code>
-<code>}</code></p>
-<p><img src="../../img/6.jpg" alt="image"></p>
-<h2 id="màn-hình-output-chạy-bằng-ctrl--f5">Màn hình Output chạy bằng ctrl + F5</h2>
-<p><img src="../../img/5.jpg" alt="image"></p>
-<h2 id="calculate-factorials">Calculate factorials</h2>
-<p><img src="../../img/7.jpg" alt="image"></p>
-<p><img src="../../img/9.jpg" alt="image"></p>
-<h2 id="màn-hình-output">Màn hình Output</h2>
-<p><img src="../../img/8.jpg" alt="image"></p>
+          <h2 id="inventory-application-overview">Inventory Application Overview</h2>
+<ul>
+<li>Project Kickoff and Requirements Gathering</li>
+<li>Test Driven Development</li>
+<li>Abstract Factory Design Pattern</li>
+</ul>
+<h2 id="implementing-design-patterns">Implementing Design Patterns</h2>
+<p>This chapter will cover the kickoff of a new project and the creation of the first release of the
+application. The following patterns are illustrated in this chapter:</p>
+<ul>
+<li>Minimal Viable Product (MVP)</li>
+<li>Test-driven development (TDD)</li>
+<li>Abstract Factory pattern (Gang of Four)</li>
+<li>SOLID principles</li>
+</ul>
+<h2 id="minimal-viable-product-mvp">MInimal Viable Product (MVP)</h2>
+<p>Many approaches, which can be viewed as patterns, exist for the determining the features of a software
+application. Best practices around how to effectively model, conduct interviews and workshops, brainstorm and
+other techniques are outside the scope of this book. Instead, one approach, Minimum Viable Product, is described
+to provide an example of what these patterns might contain.
+For example, a <strong>Business Analyst (BA)</strong> or <strong>Subject Matter Expert (SME)</strong> often represent both a business user and a member of the development team.</p>
+<h2 id="requirements">Requirements</h2>
+<p>The business and development teams were able to define the following functional requirements for
+the initial inventory management application:</p>
+<ul>
+<li>The application should be a console application:
+<ul>
+<li>It should print a welcome message that includes the version of the assembly.</li>
+<li>It should loop until a quit command is given.</li>
+<li>If a given command is not successful or not understood, then it should print a helpful
+message.</li>
+</ul>
+</li>
+<li>The application should respond to simple case-insensitive text commands.</li>
+<li>Each command should have a short form, of a single character, and a long form.</li>
+<li>If a command has additional parameters:
+<ul>
+<li>Each one should be entered in sequence and submitted with the return key.</li>
+<li>Each one should have a prompt <code>Enter {parameter}:</code> where <code>{parameter}</code> is the name of the
+parameter.</li>
+</ul>
+</li>
+<li>A help command <code>(?)</code> should be available:
+<ul>
+<li>Prints a summary of the commands available.</li>
+<li>Prints example usage of each command.</li>
+</ul>
+</li>
+<li>A quit command <code>(&quot;q&quot;, quit)</code> should be available:
+<ul>
+<li>Prints a farewell message</li>
+<li>Ends the application</li>
+</ul>
+</li>
+<li>An add inventory command (&ldquo;a&rdquo;, &ldquo;addinventory&rdquo;) should be available:
+<ul>
+<li>The name parameter of type string.</li>
+<li>It should add an entry into the database with the given name and a 0 quantity.</li>
+</ul>
+</li>
+<li>An update quantity command <code>(&quot;u&quot;, &quot;updatequantity&quot;)</code> should be available :
+<ul>
+<li>The <code>name</code> parameter of type string.</li>
+<li>The <code>quantity</code> parameter of a positive or negative integer.</li>
+<li>It should update the quantity value of the book with the given name by adding the given
+quantity.</li>
+</ul>
+</li>
+<li>A get inventory command <code>(&quot;g&quot;, &quot;getinventory&quot;)</code> should be available:
+<ul>
+<li>Returns all the books and their quantities in the database.</li>
+</ul>
+</li>
+</ul>
+<p>The FlixOne example is an illustration of how MVP could be used to help focus and streamline the
+SDLC. It is worth emphasizing that the difference between a Proof of Concept (PoC) and an MVP
+will differ with each organization. In this book, a PoC is different from MVP in that the resulting
+application is not viewed as disposable or incomplete. For a commercial product, this would mean
+the end product could be sold, and for an internal enterprise solution, the application could add value
+to the organization</p>
+<h2 id="test-driven-development-tdd">Test-driven development (TDD)</h2>
+<p>The following diagram illustrates the basics of TDD:
+<img src="../../img/23.jpg" alt="image">
+The following diagram illustrates this approach:
+<img src="../../img/24.jpg" alt="image"></p>
+<h2 id="setting-up-the-projects">Setting up the projects</h2>
+<p>In this scenario, we will use the Microsoft Unit Test (MSTest) framework. This section provides
+some instructions to create the initial project using the .NET Core command-line interface (CLI)
+tools. These steps could have been completed using an integrated development environment (IDE)
+such as Visual Studio or Visual Studio Code. The instructions are supplied here to illustrate how the
+CLI can be used to complement the IDE.</p>
+<pre><code>CLI
+.NET Core CLI tools are cross-platform utilities for developing .NET applications and are the basis for more
+sophisticated tooling, such as IDEs. Please see the documentation for more information: 
+https://docs.microsoft.com/en-us/dotnet/core/tools
+</code></pre>
+<p>The solution for this chapter will consist of three projects: a console application, a class library, and
+a test project. 
+Command create a new folder name <code>mkdir name</code> and a new soulution <code>dotnet new sln</code>
+<img src="../../img/25.jpg" alt="image">
+<img src="../../img/26.jpg" alt="image">
+<img src="../../img/27.jpg" alt="image"></p>
+<h2 id="inventorycommand-abstract-class">InventoryCommand abstract class</h2>
+<p>The following class diagram shows the inheritance of the <strong>InventoryCommand</strong> abstract class:
+<img src="../../img/28.jpg" alt="image">
+There is only one terminating command, <strong>QuitCommand</strong>, while the other commands extend
+the <strong>NonTerminatingCommand</strong> abstract class. It is also worth noting that only
+the <strong>AddInventoryCommand</strong> and <strong>UpdateQuantityCommand</strong> require parameters and the use of
+the <strong>IParameterisedCommand</strong> is explained later in the Liskov Substitution Principle section. Another subtle
+point in the diagram is that all the types, other than the base <strong>InventoryCommand</strong>, are not public (visible to
+external assemblies).
+<img src="../../img/29.jpg" alt="image"></p>
+<h2 id="inventorycommand-unit-tests">InventoryCommand unit tests</h2>
+<p>A test regarding one of the commands will not need to validate the display of
+the messages on the console (for example, color or text size) as that is not the responsibility of the
+InventoryCommand classes but of the implementation of the IUserInterface. Also, with dependency injection,
+we will be able to isolate the test to just the inventory command. The following diagram illustrates
+this, as the unit test will only validate what is contained in the green box:
+<img src="../../img/30.jpg" alt="image"></p>
 
         </div>
 
@@ -228,7 +286,7 @@ xuất hiện mình thấy:
     </div>
   </article>
 
-  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+  <script src="/c/js/highlight.pack.js"></script>
 
 
 <script>

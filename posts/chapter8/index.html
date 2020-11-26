@@ -6,9 +6,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="C# Step by Step" />
-  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter8/" />
-  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter8/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Bài thực hành C# Step by Step">
+  <meta name="author" content="C and .Net Core" />
+  <meta property="og:url" content="https://zenochien.github.io/c#andnetcore/posts/chapter8/" />
+  <link rel="canonical" href="https://zenochien.github.io/c#andnetcore/posts/chapter8/" /><link rel="preload" href="/c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/c#andnetcore/index.xml" title="Bài thực hành C và .Net Core">
 
   <script type="application/ld+json">
   {
@@ -16,41 +16,43 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+           "@id": "https:\/\/zenochien.github.io\/c#andnetcore\/"
       },
       "articleSection" : "posts",
-      "name" : "Chapter 8",
-      "headline" : "Chapter 8",
-      "description" : "How Computer memory is organized The System.Object class Boxing Unboxing Chạy chương trình và kết quả ",
+      "name" : "Chapter 8: Concurrent Programming in .NET Core",
+      "headline" : "Chapter 8: Concurrent Programming in .NET Core",
+      "description" : "Concurrent Programming in .NET Core In the previous chapter (Chapter 7, Implementing Design Patterns for Web Applications - Part 2), we created a sample web application with the help of various patterns for the web. We adapted authorization and authentication mechanisms to secure a web application and discussed Test-driven development (TDD) to make sure that our code has been tested and is working.\nThis chapter will discuss the best practices to adopt while performing concurrent programming in .",
       "inLanguage" : "en-US",
-      "author" : "C# Step by Step",
-      "creator" : "C# Step by Step",
-      "publisher": "C# Step by Step",
-      "accountablePerson" : "C# Step by Step",
-      "copyrightHolder" : "C# Step by Step",
+      "author" : "C and .Net Core",
+      "creator" : "C and .Net Core",
+      "publisher": "C and .Net Core",
+      "accountablePerson" : "C and .Net Core",
+      "copyrightHolder" : "C and .Net Core",
       "copyrightYear" : "2020",
-      "datePublished": "2020-11-06 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-11-06 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter8\/",
+      "datePublished": "2020-11-25 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-25 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/c#andnetcore\/posts\/chapter8\/",
       "keywords" : [  ]
   }
 </script>
-<title>Chapter 8 - Bài thực hành C# Step by Step</title>
-  <meta property="og:title" content="Chapter 8 - Bài thực hành C# Step by Step" />
+<title>Chapter 8: Concurrent Programming in .NET Core - Bài thực hành C và .Net Core</title>
+  <meta property="og:title" content="Chapter 8: Concurrent Programming in .NET Core - Bài thực hành C và .Net Core" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="How Computer memory is organized The System.Object class Boxing Unboxing Chạy chương trình và kết quả " />
-  <meta name="description" content="How Computer memory is organized The System.Object class Boxing Unboxing Chạy chương trình và kết quả " />
+  <meta property="og:description" content="Concurrent Programming in .NET Core In the previous chapter (Chapter 7, Implementing Design Patterns for Web Applications - Part 2), we created a sample web application with the help of various patterns for the web. We adapted authorization and authentication mechanisms to secure a web application and discussed Test-driven development (TDD) to make sure that our code has been tested and is working.
+This chapter will discuss the best practices to adopt while performing concurrent programming in ." />
+  <meta name="description" content="Concurrent Programming in .NET Core In the previous chapter (Chapter 7, Implementing Design Patterns for Web Applications - Part 2), we created a sample web application with the help of various patterns for the web. We adapted authorization and authentication mechanisms to secure a web application and discussed Test-driven development (TDD) to make sure that our code has been tested and is working.
+This chapter will discuss the best practices to adopt while performing concurrent programming in ." />
   <meta property="og:locale" content="en-us" />
 
-  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+  <link rel="stylesheet" href="/c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/c/css/index.css">
 
   
 
-  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
-    title="Bài thực hành C# Step by Step">
+  <link href="/c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Bài thực hành C và .Net Core">
   
   <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
   
@@ -67,7 +69,7 @@
           
 <header>
   <div class="signatures site-title">
-    <a href="/">C# Step by Step</a>
+    <a href="/">C and .Net Core</a>
   </div>
 </header>
 <div class="row end-xs">
@@ -78,20 +80,20 @@
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Chapter 8</h1>
+          <h1 class="post-title">Chapter 8: Concurrent Programming in .NET Core</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2020-11-06 00:00:00 UTC">
-                06 Nov 2020
+              <time class="post-date" datetime="2020-11-25 00:00:00 UTC">
+                25 Nov 2020
               </time>
               
             </div>
             <div class="col-xs-6">
               
               <div class="post-author">
-                <a target="_blank" href="https://joway.io/">@C# Step by Step</a>
+                <a target="_blank" href="https://joway.io/">@C and .Net Core</a>
               </div>
               
             </div>
@@ -101,17 +103,79 @@
 
         <div class="post-content markdown-body">
           
-          <h2 id="how-computer-memory-is-organized">How Computer memory is organized</h2>
-<p><img src="../../img/27.jpg" alt="image">
-<img src="../../img/28.jpg" alt="image"><img src="../../img/29.jpg" alt="image"></p>
-<p>The System.Object class <img src="../../img/30.jpg" alt="image"></p>
-<p>Boxing                  <img src="../../img/31.jpg" alt="image"></p>
-<p>Unboxing                <img src="../../img/32.jpg" alt="image"></p>
-<h2 id="chạy-chương-trình-và-kết-quả">Chạy chương trình và kết quả</h2>
-<p><img src="../../img/33.jpg" alt="image">
-<img src="../../img/34.jpg" alt="image">
-<img src="../../img/35.jpg" alt="image">
-<img src="../../img/36.jpg" alt="image"></p>
+          <h2 id="concurrent-programming-in-net-core">Concurrent Programming in .NET Core</h2>
+<p>In the previous chapter (Chapter 7, Implementing Design Patterns for Web Applications - Part 2), we
+created a sample web application with the help of various patterns for the web. We adapted
+authorization and authentication mechanisms to secure a web application and discussed Test-driven
+development (TDD) to make sure that our code has been tested and is working.</p>
+<p>This chapter will discuss the best practices to adopt while performing concurrent programming in
+.NET Core. In the upcoming sections of this chapter, we will learn about the design patterns relevant
+for well-organized concurrency in C# and .NET Core applications.
+The following topics will be covered in this chapter:</p>
+<ul>
+<li>Async/Await – Why is blocking bad?</li>
+<li>Multithreading and asynchronous programming</li>
+<li>Concurrent collectionsConcurrency in the real world</li>
+<li>Patterns and practices – TDD and Parallel LINQ</li>
+</ul>
+<h2 id="concurrency-in-the-real-world">Concurrency in the real world</h2>
+<p>Concurrency is a part of our life: it exists in the real world. When we are discussing concurrency,
+we are referring to multitasking.</p>
+<p>True parallelism is not possible on a single CPU machine because tasks are not switchable, as the
+CPU has a single core. It is only possible on a machine with multiple CPUs (multiple cores). In
+simple terms, concurrent programming involves two things:</p>
+<ul>
+<li><strong>Task management</strong>: Managing/distributing work units to available threads.</li>
+<li><strong>Communication</strong>: This sets up the initial parameter of the task and gets the results.</li>
+</ul>
+<ul>
+<li>Concurrency is when two or more tasks start, run, and complete in overlapping time periods.</li>
+<li>Parallelism is when two or more tasks run at the same time.
+<img src="../../img/70.jpg" alt="image"></li>
+</ul>
+<h2 id="multithreading-and-asynchronous-programming">Multithreading and asynchronous programming</h2>
+<p><img src="../../img/70.jpg" alt="image">
+<img src="../../img/72.jpg" alt="image">
+<img src="../../img/73.jpg" alt="image"></p>
+<h2 id="patterns-and-practices--tdd-and-parallel-linq">Patterns and practices – TDD and Parallel LINQ</h2>
+<p><img src="../../img/71.jpg" alt="image">
+<img src="../../img/74.jpg" alt="image">
+<strong>DiscountModel</strong>
+<img src="../../img/75.jpg" alt="image"></p>
+<ul>
+<li>ProductId: This represents the ID of a product.</li>
+<li>ProductName: This represents the name of a product.</li>
+<li>Price: This contains the actual price of the product. The actual price is before any discount, taxes,
+and so on.</li>
+<li>Discount: This contains the percentage of a discount such as 10 or 3. A valid discount rate should
+not be negative, equal to zero, or more than 100% (in other words, it should not be more than the
+actual cost of the product).</li>
+<li>Amount: This contains the product value after any discount, taxes, and so on.</li>
+</ul>
+<h2 id="requirements">Requirements</h2>
+<p>MVP is the smallest set of features of an application that can still be released and have enough value for a user
+base.
+After several meetings and discussions between management and business analysts, a list of
+requirements was produced to enhance our FlixOne web application. The high-level requirements are
+as follows:
+<strong>Implementation of pagination</strong>: Currently, all page listings are not paginated. It is really
+challenging to view items with large page counts by scrolling down or scrolling up the screen.
+<strong>Discount Rates</strong>: Currently, there is no provision to add or see the various discount rates for a
+product. The business rules for discount rates are as follows:</p>
+<ul>
+<li>A product can have more than one discount rate.</li>
+<li>A product can only have one active discount rate.</li>
+<li>A valid discount rate should not be a negative value and should not be more than 100%</li>
+</ul>
+<h2 id="strategy-pattern-and-functional-programming">Strategy pattern and functional programming</h2>
+<p>The strategy
+pattern is one of the important patterns of Gang of Four (GoF) patterns. This falls under the
+behavioral patterns category and is also known as a policy pattern. 
+The strategy
+pattern is one of the important patterns of Gang of Four (GoF) patterns. This falls under the
+behavioral patterns category and is also known as a policy pattern. 
+Consider the following code that shows the implementation of HOFs in functional programming:Consider the following code that shows the implementation of HOFs in functional programming:
+<img src="../../img/76.jpg" alt="image"></p>
 
         </div>
 
@@ -176,7 +240,7 @@
     </div>
   </article>
 
-  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+  <script src="/c/js/highlight.pack.js"></script>
 
 
 <script>

@@ -6,9 +6,9 @@
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="C# Step by Step" />
-  <meta property="og:url" content="https://zenochien.github.io/stepbystep_c/posts/chapter4/" />
-  <link rel="canonical" href="https://zenochien.github.io/stepbystep_c/posts/chapter4/" /><link rel="preload" href="/stepbystep_c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/stepbystep_c/index.xml" title="Bài thực hành C# Step by Step">
+  <meta name="author" content="C and .Net Core" />
+  <meta property="og:url" content="https://zenochien.github.io/c#andnetcore/posts/chapter4/" />
+  <link rel="canonical" href="https://zenochien.github.io/c#andnetcore/posts/chapter4/" /><link rel="preload" href="/c/js/highlight.pack.js" as="script" /><link rel="alternate" type="application/atom+xml" href="https://zenochien.github.io/c#andnetcore/index.xml" title="Bài thực hành C và .Net Core">
 
   <script type="application/ld+json">
   {
@@ -16,43 +16,41 @@
       "@type" : "BlogPosting",
       "mainEntityOfPage": {
            "@type": "WebPage",
-           "@id": "https:\/\/zenochien.github.io\/stepbystep_c\/"
+           "@id": "https:\/\/zenochien.github.io\/c#andnetcore\/"
       },
       "articleSection" : "posts",
-      "name" : "Chapter 4",
-      "headline" : "Chapter 4",
-      "description" : "Hôm nay luyện tập bài 4 Mình tự học thực hành C# UWP\nTạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Paste Màn hình Output ",
+      "name" : "Chapter 4: Implementing Design Patterns - Basics Part 2",
+      "headline" : "Chapter 4: Implementing Design Patterns - Basics Part 2",
+      "description" : "Implementing Design Patterns - Abstract and Observer Patterns  The singleton pattern The factory pattern Features of .NET Core Console application  The singleton pattern The singleton pattern is another GoF design pattern that is used to restrict the instantiation of a class to one object. It is used in situations where actions within a system need to be coordinated or access to data needs to be limited. For example, if access to a file needs to be restricted within an application to a single writer, then a singleton could be used to prevent multiple objects from trying to write to the file at the same time.",
       "inLanguage" : "en-US",
-      "author" : "C# Step by Step",
-      "creator" : "C# Step by Step",
-      "publisher": "C# Step by Step",
-      "accountablePerson" : "C# Step by Step",
-      "copyrightHolder" : "C# Step by Step",
+      "author" : "C and .Net Core",
+      "creator" : "C and .Net Core",
+      "publisher": "C and .Net Core",
+      "accountablePerson" : "C and .Net Core",
+      "copyrightHolder" : "C and .Net Core",
       "copyrightYear" : "2020",
-      "datePublished": "2020-11-04 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-11-04 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/zenochien.github.io\/stepbystep_c\/posts\/chapter4\/",
+      "datePublished": "2020-11-20 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-11-20 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/zenochien.github.io\/c#andnetcore\/posts\/chapter4\/",
       "keywords" : [  ]
   }
 </script>
-<title>Chapter 4 - Bài thực hành C# Step by Step</title>
-  <meta property="og:title" content="Chapter 4 - Bài thực hành C# Step by Step" />
+<title>Chapter 4: Implementing Design Patterns - Basics Part 2 - Bài thực hành C và .Net Core</title>
+  <meta property="og:title" content="Chapter 4: Implementing Design Patterns - Basics Part 2 - Bài thực hành C và .Net Core" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Hôm nay luyện tập bài 4 Mình tự học thực hành C# UWP
-Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Paste Màn hình Output " />
-  <meta name="description" content="Hôm nay luyện tập bài 4 Mình tự học thực hành C# UWP
-Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Paste Màn hình Output " />
+  <meta property="og:description" content="Implementing Design Patterns - Abstract and Observer Patterns  The singleton pattern The factory pattern Features of .NET Core Console application  The singleton pattern The singleton pattern is another GoF design pattern that is used to restrict the instantiation of a class to one object. It is used in situations where actions within a system need to be coordinated or access to data needs to be limited. For example, if access to a file needs to be restricted within an application to a single writer, then a singleton could be used to prevent multiple objects from trying to write to the file at the same time." />
+  <meta name="description" content="Implementing Design Patterns - Abstract and Observer Patterns  The singleton pattern The factory pattern Features of .NET Core Console application  The singleton pattern The singleton pattern is another GoF design pattern that is used to restrict the instantiation of a class to one object. It is used in situations where actions within a system need to be coordinated or access to data needs to be limited. For example, if access to a file needs to be restricted within an application to a single writer, then a singleton could be used to prevent multiple objects from trying to write to the file at the same time." />
   <meta property="og:locale" content="en-us" />
 
-  <link rel="stylesheet" href="/stepbystep_c/css/flexboxgrid-6.3.1.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/github-markdown.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/highlight/tomorrow.min.css" />
-  <link rel="stylesheet" href="/stepbystep_c/css/index.css">
+  <link rel="stylesheet" href="/c/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/c/css/github-markdown.css" />
+  <link rel="stylesheet" href="/c/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/c/css/index.css">
 
   
 
-  <link href="/stepbystep_c/index.xml" rel="alternate" type="application/rss+xml"
-    title="Bài thực hành C# Step by Step">
+  <link href="/c/index.xml" rel="alternate" type="application/rss+xml"
+    title="Bài thực hành C và .Net Core">
   
   <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
   
@@ -69,7 +67,7 @@ Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Pas
           
 <header>
   <div class="signatures site-title">
-    <a href="/">C# Step by Step</a>
+    <a href="/">C and .Net Core</a>
   </div>
 </header>
 <div class="row end-xs">
@@ -80,20 +78,20 @@ Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Pas
 
         </div>
         <header class="post-header">
-          <h1 class="post-title">Chapter 4</h1>
+          <h1 class="post-title">Chapter 4: Implementing Design Patterns - Basics Part 2</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <time class="post-date" datetime="2020-11-04 00:00:00 UTC">
-                04 Nov 2020
+              <time class="post-date" datetime="2020-11-20 00:00:00 UTC">
+                20 Nov 2020
               </time>
               
             </div>
             <div class="col-xs-6">
               
               <div class="post-author">
-                <a target="_blank" href="https://joway.io/">@C# Step by Step</a>
+                <a target="_blank" href="https://joway.io/">@C and .Net Core</a>
               </div>
               
             </div>
@@ -103,16 +101,92 @@ Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Pas
 
         <div class="post-content markdown-body">
           
-          <h2 id="hôm-nay-luyện-tập-bài-4">Hôm nay luyện tập bài 4</h2>
-<p>Mình tự học thực hành C# UWP</p>
-<h2 id="tạo-so-sánh-ngày-tháng-năm">Tạo so sánh ngày tháng năm</h2>
-<p><img src="../../img/11.jpg" alt="image"></p>
-<h2 id="màn-hình-output">Màn hình Output</h2>
-<p><img src="../../img/10.jpg" alt="image"></p>
-<h2 id="tạo-chức-năng-copy---paste">Tạo chức năng Copy - Paste</h2>
-<p><img src="../../img/13.jpg" alt="image"></p>
-<h2 id="màn-hình-output-1">Màn hình Output</h2>
-<p><img src="../../img/12.jpg" alt="image"></p>
+          <h2 id="implementing-design-patterns---abstract-and-observer-patterns">Implementing Design Patterns - Abstract and Observer Patterns</h2>
+<ul>
+<li>The singleton pattern</li>
+<li>The factory pattern</li>
+<li>Features of .NET Core</li>
+<li>Console application</li>
+</ul>
+<h2 id="the-singleton-pattern">The singleton pattern</h2>
+<p>The singleton pattern is another GoF design pattern that is used to restrict the instantiation of a class
+to one object. It is used in situations where actions within a system need to be coordinated or access
+to data needs to be limited. For example, if access to a file needs to be restricted within an
+application to a single writer, then a singleton could be used to prevent multiple objects from trying to
+write to the file at the same time. In our scenario, we are going to use a singleton to maintain the
+collection of books and their inventory.
+The complexity of introducing a singleton into an application can be subtle; so, to gain a solid
+understanding of the pattern, we will cover the following topics:</p>
+<ul>
+<li>.Net Framework&rsquo;s handling of processes and threads</li>
+<li>The repository pattern</li>
+<li>Race conditions</li>
+<li>Unit testing to identify race conditions</li>
+</ul>
+<h2 id="the-repository-pattern">The repository pattern</h2>
+<p>An example of this could be GetInventoryCommand, AddInventoryCommand, and UpdateInventoryCommand objects; all
+of these objects use the same repository class. To begin, let&rsquo;s consider the following interface that describes the methods that the repository will implement; it contains a method for retrieving the books, adding a book, and updating the quantity of the book:
+<img src="../../img/31.jpg" alt="image">
+<img src="../../img/32.jpg" alt="image">
+<img src="../../img/33.jpg" alt="image"></p>
+<p>To illustrate the issues that the singleton pattern addresses, let&rsquo;s start with a simple unit test that adds
+30 books to the repository, updates the quantity of the different books, and then verifies the result. The
+following code shows the overall unit test, and we will explain each step individually:
+<img src="../../img/34.jpg" alt="image"></p>
+<p>So, when the test is run in a single process, the repository works as desired. However, what if the
+update requests are performed in separate threads? In order to test this, the unit test will be refactored
+to perform calls to the InventoryContext class in separate threads.
+<img src="../../img/35.jpg" alt="image">
+The unit test is then updated to call the new methods. It is worth noting that the unit test will wait untilall books are added before updating the quantity.
+<img src="../../img/36.jpg" alt="image"></p>
+<h2 id="a-race-condition-illustration">A race condition illustration</h2>
+<p>The following sequence of diagrams visualize what is happening conceptually between two
+threads: <strong>ThreadA</strong> and <strong>ThreadB</strong>. The first diagram shows both threads without any values from the
+collection:
+<img src="../../img/37.jpg" alt="image">
+The following diagram shows that both threads read from the collection of the book with the name of
+<code>Chester</code>:
+<img src="../../img/38.jpg" alt="image">
+The following diagram shows that <strong>ThreadA</strong> updates the book by increasing the quantity by 4, while
+<strong>ThreadB</strong> updates the book by increasing the quantity by 3:
+<img src="../../img/39.jpg" alt="image">
+Then, when the updated book is persisted back to the collection, we have an unknown quantity as the
+result, as shown in the following diagram:
+<img src="../../img/40.jpg" alt="image"></p>
+<h2 id="addinventorycommand">AddInventoryCommand</h2>
+<p>The first thing to note is that the repository, <strong>IInventoryContext</strong>, is injected in the constructor along with
+the <strong>IUserInterface</strong> interface described in the previous chapter. The command also requires a single
+parameter, name, to be supplied. This is retrieved in the <strong>GetParameters</strong> method that implements the
+<strong>IParameterisedCommand</strong> interface, which was also covered in the previous chapter. The command is then
+run in the <strong>InternalCommand method</strong>, which simply executes the <strong>AddBook</strong> method on the repository and
+returns a bool indicating whether the command has executed successfully.
+<img src="../../img/41.jpg" alt="image"></p>
+<h2 id="testinventorycontext">TestInventoryContext</h2>
+<p>Similar to <strong>TestUserInterface</strong> used in the previous chapter, the <strong>TestInventoryContext</strong> class will be used to
+mock the behavior of our repository by implementing the <strong>IInventoryContext</strong> interface. 
+<img src="../../img/42.jpg" alt="image">
+The IInventoryContext methods are written to update and return just one of the collections and at At the end of the unit test, the two remaining methods can be used to determine the difference between the starting and ending collections:
+<img src="../../img/43.jpg" alt="image">
+<img src="../../img/44.jpg" alt="image"></p>
+<h2 id="the-factory-pattern">The factory pattern</h2>
+<p>The next pattern applied by the team is the GoF factory pattern. The pattern introduces
+a creator whose responsibility is the instantiation of implementations of a specific type. Its purpose
+is to encapsulate the complexity around constructing types. The factory pattern allows for more
+flexibility as the application changes, by limiting the amount of required change compared to whether
+the construction was in the calling class. This is because the complexity of the construction is in one
+location, instead of distributed in multiple locations across the application.</p>
+<p>Example, InventoryCommandFactory implements the pattern and shields the details of
+constructing each of the different InventoryCommand instances. In this scenario, the input received from the
+console application will be used to determine the concrete implementation of InventoryCommand to return.
+It is important to note that the return type is the InventoryCommand abstract class, thus shielding the calling
+class from the details of the concrete class.</p>
+<h2 id="features-in-net-core">Features in .NET Core</h2>
+<p><code>Chapter 3</code>, Implementing Design Patterns – Basics Part 1, and the first part of this chapter have
+illustrated the GoF patterns without using any frameworks. It is worth covering this as, sometimes, a
+framework is not available for a specific pattern or applicable in a particular scenario. Additionally,
+it is important to understand what functionality the framework is providing in order to know when a
+pattern should be used. The rest of this chapter will look at a couple of features that .NET Core
+provides that support some of the patterns we have covered so far.</p>
 
         </div>
 
@@ -177,7 +251,7 @@ Tạo so sánh ngày tháng năm Màn hình Output Tạo chức năng Copy - Pas
     </div>
   </article>
 
-  <script src="/stepbystep_c/js/highlight.pack.js"></script>
+  <script src="/c/js/highlight.pack.js"></script>
 
 
 <script>
